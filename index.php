@@ -16,7 +16,6 @@
     <!-- Bootstrap Css -->
     <link href="bootstrap-assets/css/bootstrap.css" rel="stylesheet">
 	<link href="bootstrap-assets/css/bootstrap.min.css" rel="stylesheet">
-	
     <!-- Style -->
     <link href="plugins/owl-carousel/owl.carousel.css" rel="stylesheet">
     <link href="plugins/owl-carousel/owl.theme.css" rel="stylesheet">
@@ -76,14 +75,24 @@
                 </div>
             </div>
         </nav>
-        <div id="owl-hero" class="owl-carousel owl-theme">
+		<!-- Header -->
+		<header>
+			<div class="container">
+				<div class="intro-text">
+					<div class="intro-heading"><img class="img-responsive center-block" src="img/logoinf.jpg"></div>
+					<div class="intro-lead-in">A series of transformational workshops for thought leaders, peak performers, and business elites <br>aimed to realize a new reality.</div>
+					<a class="btn btn-transparent" href="#">JUMP START HERE</a>
+				</div>
+			</div>
+		</header>
+        <!--<div id="owl-hero" class="owl-carousel owl-theme">
             <div class="item" style="background-image: url(img/sliders/bali.jpg)">
                 <div class="caption">
 					<img src="img/logoinf.jpg">
-                    <!--<h1>More <span><sup>2</sup></span></h1>-->
+                    <h1>More <span><sup>2</sup></span></h1>
 					<h6> <br> <br> A series of transformational workshops for thought leaders, peak performers, and business elites <br>aimed to realize a new reality.<br>Limited registration is now open for our workshop in Bali, Jan 8th - 12, 2016,<br> There is a limited amounts of spaces for this dream workshop.<br> 
 						Early bird pricing will be available only until December 8, 2015 <br><br> </h6>
-                    <a class="btn btn-transparent" href="#">JUMP START HERE</a><!--<a class="btn btn-light" href="#">Learn More</a>-->
+                    <a class="btn btn-transparent" href="#">JUMP START HERE</a><a class="btn btn-light" href="#">Learn More</a>
                 </div>
             </div>
             
@@ -92,10 +101,10 @@
 					<img src="img/logoinf.jpg">
 					<h6> <br> <br> A series of transformational workshops for thought leaders, peak performers, and business elites <br>aimed to realize a new reality.<br>Limited registration is now open for our workshop in Bali, Jan 8th - 12, 2016,<br> There is a limited amounts of spaces for this dream workshop.<br> 
 						Early bird pricing will be available only until December 8, 2015 <br><br> </h6>
-                    <a class="btn btn-transparent" href="#">JUMP START HERE</a><!--<a class="btn btn-light" href="#">Learn More</a>-->
+                    <a class="btn btn-transparent" href="#">JUMP START HERE</a><a class="btn btn-light" href="#">Learn More</a>
                 </div>
             </div>
-        </div>
+        </div>-->
     </section>
     <!-- Work Process
 	============================================= -->
