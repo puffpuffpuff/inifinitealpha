@@ -1,11 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Raleway:200);
-@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800,200);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:700italic);
 /* ==========================================================================
 Global Styles
 ========================================================================== */
 body {
   font-family: 'Raleway', sans-serif;
+  font-weight: 200;
   font-size: 16px;
   color: #0d0d0d;
   overflow-x: hidden;
@@ -77,19 +78,19 @@ p {
 Buttons Styles
 ========================================================================== */
 .btn-transparent {
-  background: transparent;
+  background: #ffd65c;
   border: 3px solid #fff;
-  padding: 15px 30px;
+  padding: 10px 20px;
   font-size: 14px;
+  font-weight: 800;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0;
-  color: #fff;
+  color: #0d0d0d;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  font-weight: 700;
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
@@ -97,8 +98,8 @@ Buttons Styles
 .btn-transparent:hover,
 .btn-transparent:focus,
 .btn-transparent:active {
-  background: #fff;
-  color: #0d0d0d;
+  background: #0d0d0d;
+  color: #ffd65c;
   text-decoration: none;
 }
 
@@ -250,59 +251,59 @@ Navigation Style
 .top-nav-collapse .nav > li > a {
   padding: 30px 15px;
 }
-/* header =================== */
-header {
-    text-align: center;
-    color: #fff;
-    background-attachment: scroll;
-    background-image: url(../img/sliders/bali.jpg);
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+	  height: 705px;
+      margin: auto;
+  
+	
 }
 
-header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
+.main-text
+{
+	margin-top: 80px;
+    position: absolute;
+    top: 50px;
+    width: 96.66666666666666%;
+    color: #FFF;
 }
-
-header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
-    font-size: 22px;
-    line-height: 22px;
+.main-text img{
+	margin-top: 23px;
 }
-
-header .intro-text .intro-heading {
-    margin-bottom: 25px;
-    text-transform: uppercase;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 50px;
+.main-text h3{
+	color: #fff;
+	font-size: 26px;
+	font-family: 'Droid Serif', serif;
+	text-align: left;
+	line-height: 31px;
 }
-
-@media(min-width:768px) {
-    header .intro-text {
-        padding-top: 200px;
-        padding-bottom: 200px;
-    }
-
-    header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
-        font-size: 20px;
-        line-height: 40px;
-    }
-
-    header .intro-text .intro-heading {
-        margin-bottom: 50px;
-        text-transform: uppercase;
-        font-size: 75px;
-        font-weight: 700;
-        line-height: 75px;
-    }
+.main-text h2{
+	text-align: left;
+	line-height: 23px;
+	color: #fff;
+	font-size: 20px;
+	padding-bottom: 60px;
 }
+.main-text h1{
+	color: #fff;
+	letter-spacing: 0;
+}
+/* ==============================================================
+when small
+=================================================================*/
+@media (max-width: 32em) {
+    .main-text .col-sm-8 h3{
+		font-size: 14px;
+		
+	line-height: 18px;
+	}
+	.main-text .col-sm-8 h2{
+		font-size: 13px;
+		
+	line-height: 16px;
+	}
+  }
 
     /* ==========================================================================
 Sliders Style
