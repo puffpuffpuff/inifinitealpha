@@ -24,6 +24,7 @@
     <link href="plugins/Icons/style.css" rel="stylesheet">
     <link href="plugins/animate.css/animate.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+
 	
     <!-- Icons Font -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -53,7 +54,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#"><img src="img/logoinf2.jpg" class="img-responsive" alt="logo"></a>
+                    <a class="navbar-brand" href="#"><img src="img/logoinf.png" class="img-responsive" alt="logo"></a>
                 </div>
                 <div class="collapse navbar-collapse text-center" id="bs-example-navbar-collapse-1">
                     <div class="col-md-8 col-xs-12 nav-wrap">
@@ -75,15 +76,66 @@
                 </div>
             </div>
         </nav>
-		<!-- Header -->
+		<header>
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner" role="listbox">
+			<div class="item active">
+			  <img src="img/portfolio/Slides.jpg" alt="Chania">
+			</div>
+
+			<div class="item">
+			  <img src="img/portfolio/Slide2.jpg" alt="Flower">
+			</div>
+		  </div>
+
+		  <!-- Left and right controls -->
+		  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			<!--<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>-->
+			<span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			<!--<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
+			<span class="sr-only">Next</span>
+		  </a>
+		  <div class="main-text">
+                <div class="col-lg-12 col-md-12">
+				<div class="row">
+				<div class="col-lg-2 col-md-2"></div>
+				<div class="col-lg-8 col-md-8">
+                    <img class="img-responsive left-block" src="img/logoinf2.png"></div>
+				</div>
+				<div class="row">
+				<div class="col-lg-2 col-md-2 col-sm-2"></div>
+                <div class="col-lg-8 col-md-8 col-sm-8">
+					<h3>Bali, January 8th - 12, 2016 </h3>
+					<h2>A series of transformational workshops for thought leaders, peak performers, and business elites aimed to realize a new reality.</h2>
+                    <div class="isep">
+						<div class="col-sm-4"><img class="img-responsive center-block hidden-sm hidden-xs" src="img/bg/sep.png"></div>
+						<div class="col-sm-4"><a class="btn btn-transparent" href="#">JUMP START HERE</a></div>
+						<div class="col-sm-4"><img class="img-responsive center-block hidden-sm hidden-xs" src="img/bg/sep.png"></div>
+					</div>
+				</div>
+				</div>
+                </div>
+            </div>
+		</div>
+		</header>
+		<!-- Header 
 		<header>
 			<div class="container">
 				<div class="intro-text">
 					<div class="intro-heading"><img class="img-responsive center-block" src="img/logoinf.jpg"></div>
-					<div class="intro-lead-in">A series of transformational workshops for thought leaders, peak performers, and business elites <br>aimed to realize a new reality.</div>
+					<div class="intro-lead-in">Bali, Jan 8th - 12, 2016 <br>A series of transformational workshops for thought leaders, peak performers, and business elites <br>aimed to realize a new reality.</div>
 					<a class="btn btn-transparent" href="#">JUMP START HERE</a>
 				</div>
-			</div>
+			</div>-->
 		</header>
         <!--<div id="owl-hero" class="owl-carousel owl-theme">
             <div class="item" style="background-image: url(img/sliders/bali.jpg)">
