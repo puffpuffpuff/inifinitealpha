@@ -127,81 +127,78 @@
             </div>
 		</div>
 		</header>
-		<!-- Header 
-		<header>
-			<div class="container">
-				<div class="intro-text">
-					<div class="intro-heading"><img class="img-responsive center-block" src="img/logoinf.jpg"></div>
-					<div class="intro-lead-in">Bali, Jan 8th - 12, 2016 <br>A series of transformational workshops for thought leaders, peak performers, and business elites <br>aimed to realize a new reality.</div>
-					<a class="btn btn-transparent" href="#">JUMP START HERE</a>
-				</div>
-			</div>-->
-		</header>
-        <!--<div id="owl-hero" class="owl-carousel owl-theme">
-            <div class="item" style="background-image: url(img/sliders/bali.jpg)">
-                <div class="caption">
-					<img src="img/logoinf.jpg">
-                    <h1>More <span><sup>2</sup></span></h1>
-					<h6> <br> <br> A series of transformational workshops for thought leaders, peak performers, and business elites <br>aimed to realize a new reality.<br>Limited registration is now open for our workshop in Bali, Jan 8th - 12, 2016,<br> There is a limited amounts of spaces for this dream workshop.<br> 
-						Early bird pricing will be available only until December 8, 2015 <br><br> </h6>
-                    <a class="btn btn-transparent" href="#">JUMP START HERE</a><a class="btn btn-light" href="#">Learn More</a>
-                </div>
-            </div>
-            
-            <div class="item" style="background-image: url(img/sliders/bali2.jpg)">
-                <div class="caption">
-					<img src="img/logoinf.jpg">
-					<h6> <br> <br> A series of transformational workshops for thought leaders, peak performers, and business elites <br>aimed to realize a new reality.<br>Limited registration is now open for our workshop in Bali, Jan 8th - 12, 2016,<br> There is a limited amounts of spaces for this dream workshop.<br> 
-						Early bird pricing will be available only until December 8, 2015 <br><br> </h6>
-                    <a class="btn btn-transparent" href="#">JUMP START HERE</a><a class="btn btn-light" href="#">Learn More</a>
-                </div>
-            </div>
-        </div>-->
+		
     </section>
     <!-- Work Process
 	============================================= -->
     <section id="work-process">
-        <div class="container">
-            <h2><br>5 Day Retreat in Bali</h2>
-            <hr class="light-sep">
-            <p> </p>
-			<div class="row wow fadeInUp" data-wow-delay=".3s">
-				<div class="col-sm-6">
-					<div class="icon-left">
-						<span class="icon-heart"></span>
-					</div>
-					<div class="text-right">
-						<h3>This life changing program led by Oskar Saville-Doyle. In whatever area you are looking to get more from, whether it be growing your business to the next level, creating more financial freedom or ways to live a more fulfilled life with more joy and more happiness, there is no better time than now to transcend your greatest limitations and create your own breakthrough to the greatest you possible. </h3>
+        <div class="container-fluid">
+		<div class="col-lg-12 col-md-12">
+				<div class="row">
+					<div class="col-lg-2 col-md-2"></div>
+						<div class="col-lg-8 col-md-8">
+							<img class="img-responsive center-block" src="img/petabali.png">
+						</div>
+				</div>
+				<div class="row">
+				<div class="col-lg-2 col-md-2 col-sm-2"></div>
+                <div class="col-lg-8 col-md-8 col-sm-8">
+					<h2>5 Day Retreat in Bali</h2>
+					<div class="col-lg-2 col-md-2 col-sm-2"></div>
+					<div class="col-lg-8 col-md-8 col-sm-8">
+						<div class="redsep center-block"></div><br>
+						<div class="dtitle">
+							<div class="row">
+								<h3>
+									<div class="col-lg-2 col-md-2 col-sm-2">
+										<img class="img-responsive center-block" src="img/bg/icon1.png"></img>
+									</div>
+									<div class="col-lg-10 col-md-10 col-sm-10">
+										<span class="underline">WHAT IS CREATE MORE? </span>
+									</div>
+								</h3>
+							</div>
+						</div>
+							<p>
+							   This life changing program is led by <b>Oskar Saville-Doyle</b> and will assist you down the path of the happiness you have been searching for! In any area you are looking to gain more out of your life, whether it be growing your business to the next level, creating more financial freedom, greater intimacy in relationships or just identifying ways to live a more fulfilled life, there is no better time than now to transcend your greatest limitations and create your own breakthrough to the authentic you and to the greatest life possible. 
+							</p>
+						<div class="dtitle">
+							<div class="row">
+								<h3>
+									<div class="col-lg-2 col-md-2 col-sm-2">
+										<img class="img-responsive center-block" src="img/bg/icon2.png"></img>
+									</div>
+									<div class="col-lg-10 col-md-10 col-sm-10">
+										<span class="underline">WHO IS THIS WORKSHOP FOR?</span>
+									</div>
+								</h3>
+							</div>
+						</div>
+							<p>
+							   This retreat is highly customized for leaders, peak performers, and business elites who want to experience the excitement and happiness of the next level of life. You are a highly successful individual who understands that there is more to life and that you deserve it all; these five days will bring you the understanding of how to get there.
+							</p>
+						<div class="dtitle">
+							<div class="row">
+								<h3>
+									<div class="col-lg-2 col-md-2 col-sm-2">
+										<img class="img-responsive center-block" src="img/bg/icon3.png"></img>
+									</div>
+									<div class="col-lg-10 col-md-10 col-sm-10">
+										<span class="underline">HOW TO ACHIEVE MORE?</span>
+									</div>
+								</h3>
+							</div>
+						</div>
+							<p>
+							   Our one-of-a-kind approach combines an in-depth exploration of the psychological, mental and emotional blocks that get in your way when you are trying to create greater happiness. Through the systematic process of identifying and analyzing the narratives and belief systems in our conscious and subconscious minds, this workshop will show you how to jumpstart your 2016 into another dimension, where life is easier and more joyful, and where work becomes joyous, playful, and meaningful in every moment.
+							</p>
+							
+								<a class="btn btn-transparent center-block" href="#">SEE DATE AND RATES</a>
+							
 					</div>
 				</div>
-				<div class="col-sm-6">
-					<div class="icon-left">
-						<span class="icon-linegraph"></span>
-					</div>
-					<div class="text-right">
-						<h3>This retreat is highly customized for leaders, peak performers, and business elites who want to experience the excitement and happiness of the next level of life. Most of the participants are highly-successful individuals who understand that there is more to life and that they deserve it all. </h3>
-					</div>
 				</div>
-			</div>
-            <div class="row wow fadeInUp" data-wow-delay=".6s">
-				<div class="col-sm-6">
-					<div class="icon-left">
-						<span class="icon-leaf"></span>
-					</div>
-					<div class="text-right">
-						<h3>Our one-of-a-kind approach combines an in-depth exploration of the psychological, mental and emotional blocks that get in our way to greatness and happiness.</h3>
-					</div>
-				</div>
-				<div class="col-sm-6">
-					<div class="icon-left">
-						<span class="icon-accessibility"></span>
-					</div>
-					<div class="text-right">
-						<h3>This workshop will show you how to  jumpstart your 2016 into another dimension of life, where life is easier, happier and work becomes joyous, playful, and meaningful in every moment.</h3>
-					</div>
-				</div>
-			</div>
-            
+        </div>
         </div>
     </section>
 	 <!-- Welcome
@@ -365,7 +362,7 @@
             <h2>Our Accomodation</h2>
             <hr class="light-sep">
             <p>We will all be staying in a highly luxurious villa with six air-conditioned en-suite bedrooms with king or twin beds, with semi open-air garden bathrooms with tropical outdoor showers. Private terraces outside all bedrooms and rooftop terrace, overlooking a 21-metre private curved swimming pool. Other facilities: table tennis, flood-lit tennis court, basketball hoop, soccer net, gym.</p>
-            <div class="row">
+            <div class="row-fluid">
                 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
                     <a class="portfolio-box" href="img/portfolio/bali.jpg" data-lightbox="image-1" data-title="Your caption">
                         <img src="img/portfolio/bali.jpg" class="img-responsive" alt="1">
