@@ -117,9 +117,9 @@
 					<h3>Bali, January 8th - 12, 2016 </h3>
 					<h2>A series of transformational workshops for thought leaders, peak performers, and business elites aimed to realize a new reality.</h2>
                     <div class="isep">
-						<div class="col-sm-4"><img class="img-responsive center-block hidden-sm hidden-xs" src="img/bg/sep.png"></div>
-						<div class="col-sm-4"><a class="btn btn-transparent" href="#">JUMP START HERE</a></div>
-						<div class="col-sm-4"><img class="img-responsive center-block hidden-sm hidden-xs" src="img/bg/sep.png"></div>
+						<div class="col-lg-4 col-md-4 col-sm-4"><img class="img-responsive center-block hidden-sm hidden-xs" src="img/bg/sep.png"></div>
+						<div class="col-sm-4 col-lg-4 col-md-4"><a class="btn btn-transparent center-block" href="#">JUMP START HERE</a></div>
+						<div class="col-lg-4 col-md-4 col-sm-4"><img class="img-responsive center-block hidden-sm hidden-xs" src="img/bg/sep.png"></div>
 					</div>
 				</div>
 				</div>
