@@ -86,7 +86,7 @@ Buttons Styles
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0;
-  color: #0d0d0d;
+  color: #47484d;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -98,7 +98,7 @@ Buttons Styles
 .btn-transparent:hover,
 .btn-transparent:focus,
 .btn-transparent:active {
-  background: #0d0d0d;
+  background: #47484d;
   color: #ffd65c;
   text-decoration: none;
 }
@@ -254,10 +254,9 @@ Navigation Style
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
 	min-width: 100%;
-  height: 700px;
-  max-width: none;
-}	
-
+	  height: 700px;
+	  max-width: none;
+}
 
 .main-text
 {
@@ -288,10 +287,16 @@ Navigation Style
 	color: #fff;
 	letter-spacing: 0;
 }
+.main-text .col-sm-4{
+	margin: auto;
+}
 /* ==============================================================
 when small
 =================================================================*/
 @media (max-width: 32em) {
+	
+    
+
     .main-text .col-sm-8 h3{
 		font-size: 14px;
 		
@@ -302,6 +307,9 @@ when small
 		
 	line-height: 16px;
 	}
+	.main-text .btn-transparent{
+	margin: auto;
+}
   }
 
     /* ==========================================================================
@@ -677,8 +685,12 @@ Work Process Style
   padding: 60px 0;
   text-align: center;
 }
-#work-process .col-sm-6{
- 
+#work-process .redsep {
+  max-width: 100%;
+  border: 2px solid #DD5D44;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  text-align:center;
 }
 #work-process .col-sm-6 .icon-left{
 	margin-top: 20px;
@@ -695,21 +707,70 @@ Work Process Style
 }
 #work-process h2 {
   text-transform: uppercase;
-   color: #24242a;
+   color: #47484d;
+   font-weight: 700;
+   font-size: 50px;
 }
-#work-process h4 {
-  text-transform: uppercase;
-  color: #24242a;
+#work-process p {
+  text-align: left;
+  color: #47484d;
+  font-size: 16px;
+  padding-bottom: 50px;
 }
 #work-process h3 {
-	text-align: left;
-	color: #24242a;
-	font-size: 16px;
+	font-family: 'Droid Serif', serif;
+	text-align: center;
+	color: #47484d;
+	text-decoration: underline;
+	font-size: 26px;
 }
-#work-process span {
-  font-size: 48px;
-  color: #24242a;
-  margin-bottom: 15px;
+#work-process .dtitle {
+	padding-bottom: 10px;
+}
+#work-process .dtitle .col-lg-2{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+#work-process .dtitle .col-lg-10{
+	padding-left: 0px;
+}
+ .underline{
+
+	text-decoration: underline;
+}
+#work-process .btn-transparent {
+  background: #ffd65c;
+      width: 200px;
+  border: 3px solid #47484d;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 800;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  color: #47484d;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+#work-process .btn-transparent:hover,
+#work-process .btn-transparent:focus,
+#work-process .btn-transparent:active {
+  background: #47484d;
+  border: 3px solid #ffd65c;
+  color: #ffd65c;
+  text-decoration: none;
+}
+@media (min-width: 1200px) {
+	#work-process .dtitle .col-lg-10{
+	padding-left: 0px;
+    padding-top: 9px;
+    text-align: left;
+}
 }
     /* ==========================================================================
 Schedule
