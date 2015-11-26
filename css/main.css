@@ -253,12 +253,11 @@ Navigation Style
 }
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
-      width: 100%;
-	  height: 705px;
-      margin: auto;
-  
-	
-}
+	min-width: 100%;
+  height: 700px;
+  max-width: none;
+}	
+
 
 .main-text
 {
