@@ -294,9 +294,6 @@ Navigation Style
 when small
 =================================================================*/
 @media (max-width: 32em) {
-	
-    
-
     .main-text .col-sm-8 h3{
 		font-size: 14px;
 		
@@ -309,7 +306,8 @@ when small
 	}
 	.main-text .btn-transparent{
 	margin: auto;
-}
+	}
+	
   }
 
     /* ==========================================================================
@@ -770,6 +768,11 @@ Work Process Style
 	padding-left: 0px;
     padding-top: 9px;
     text-align: left;
+}
+}
+@media (max-width: 32em) {
+	#work-process .col-sm-8 h2{
+   font-size: 40px;
 }
 }
     /* ==========================================================================
