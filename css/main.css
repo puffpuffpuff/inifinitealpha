@@ -81,12 +81,13 @@ Buttons Styles
   background: #ffd65c;
   border: 3px solid #fff;
   padding: 10px 20px;
+  width:200px;
   font-size: 14px;
   font-weight: 800;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0;
-  color: #0d0d0d;
+  color: #47484d;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -98,7 +99,7 @@ Buttons Styles
 .btn-transparent:hover,
 .btn-transparent:focus,
 .btn-transparent:active {
-  background: #0d0d0d;
+  background: #47484d;
   color: #ffd65c;
   text-decoration: none;
 }
@@ -210,7 +211,6 @@ Navigation Style
 .navbar-default .nav > li > a {
   font-size: 14px;
   color: #fff;
-  font-weight: 700;
   text-transform: uppercase;
   padding: 35px 15px;
   -moz-transition: all 0.3s ease-in-out;
@@ -253,11 +253,13 @@ Navigation Style
 }
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
-	min-width: 100%;
-  height: 700px;
-  max-width: none;
-}	
-
+	-moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 .main-text
 {
@@ -288,6 +290,9 @@ Navigation Style
 	color: #fff;
 	letter-spacing: 0;
 }
+.main-text .col-sm-4{
+	margin: auto;
+}
 /* ==============================================================
 when small
 =================================================================*/
@@ -302,6 +307,10 @@ when small
 		
 	line-height: 16px;
 	}
+	.main-text .btn-transparent{
+	margin: auto;
+	}
+	
   }
 
     /* ==========================================================================
@@ -320,10 +329,8 @@ Sliders Style
 }
 #owl-hero .item .caption {
   position: absolute;
-  top: 40%;
+  top: 20%;
   margin-top: -104px;
-  margin-left: 200px;
-  margin-right: 200px;
   padding-top: 20px;
   padding-bottom: 20px;
   left: 0;
@@ -343,8 +350,6 @@ Sliders Style
 
 #owl-hero .item .caption img {
 	
-  width: 200px;
-  height: 100px;
 }
 #owl-hero .item .caption h1 span {
 	
@@ -418,61 +423,235 @@ Sliders Style
 Welcome Style
 ========================================================================== */
 #welcome {
-	background: #235789;
-  background-image: url("../img/bg/question-mark.png");
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: 900px 900px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-
+	background: #47484d;
   padding: 60px 0;
   text-align: center;
 }
 #welcome h2 {
   text-transform: uppercase;
   color: #fff;
+  text-transform: uppercase;
+   font-weight: 700;
+   letter-spacing: 0.17em;
+   font-size: 50px;
 }
-#welcome h2 span {
-  font-weight: 700;
-  color: #fff;
+#welcome .yellsep {
+  max-width: 100%;
+  border: 1px solid #FFC40C;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  text-align:center;
+}
+#welcome .greysep {
+  max-width: 100%;
+  border: 1px solid #BFBFBF;
+  text-align:center;
+}
+#welcome h3 {
+	font-family: 'Droid Serif', serif;
+	text-align: center;
+	color: #fff;
+	font-size: 26px;
+}
+#welcome h4 {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	color: #fff;
+	margin-top: 30px;
+	font-size: 26px;
 }
 #welcome img {
   margin-top: 40px;
   margin-bottom: 40px;
   margin-left: 1px;
 }
-
-#welcome .texts{
-	float: left;
-	color: #fff;
+#welcome .btn-blue {
+  background: #47484d;
+      width: 200px;
+  border: 3px solid #87C2EA;
+  padding: 10px 20px;
+  margin-top: 60px;
+  font-size: 14px;
+  font-weight: 800;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  color: #87C2EA;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
-#welcome .texts p{
+
+#welcome .btn-blue:hover,
+#welcome .btn-blue:focus,
+#welcome .btn-blue:active {
+  background: #87C2EA;
+  border: 3px solid #47484d;
+  color: #47484d;
+  text-decoration: none;
+}
+#welcome .btn-yel {
+  background: #47484d;
+      width: 200px;
+  border: 3px solid #FFC40C;
+  padding: 10px 20px;
+  margin-top: 60px;
+  font-size: 14px;
+  font-weight: 800;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  color: #FFC40C;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+#welcome .btn-yel:hover,
+#welcome .btn-yel:focus,
+#welcome .btn-yel:active {
+  background: #FFC40C;
+  border: 3px solid #47484d;
+  color: #47484d;
+  text-decoration: none;
+}
+#welcome .ypanel{
+	margin-top: 50px;
+	color: #47484d;
+    border-color: #47484d;
+}
+#welcome .ypanel .panel-heading{
+    background-color: #FFC40C;
+}
+#welcome .bpanel{
+	margin-top: 50px;
+	color: #47484d;
+    border-color: #47484d;
+}
+#welcome .bpanel .panel-heading{
+    background-color: #87C2EA;
+}
+#welcome .panel-heading{
+	font-weight: normal;
+	font-size: 26px;
+}
+#welcome .panel-heading .title{
+	font-family: 'Droid Serif', serif;
+	text-align: center;
+	font-size: 40px;
+}
+#welcome .panel-body{
+	font-weight: normal;
+	font-size: 20px;
+	padding-top :1px;
+	padding-bottom :1px;
+}
+#welcome .panel-body .title{
+	text-align: center;
+	font-size: 60px;
+}
+#welcome .panel-body .sectitle{
+	text-align: center;
+	font-size: 30px;
+}
+#welcome .panel-body .definit{
+	font-size: 16px;
+}
+@media (max-width: 32em) {
+	#welcome h3 {
+		font-size: 20px;
+	}
+	#welcome h4 {
+		font-size: 20px;
+	}
+	#welcome .panel-heading{
+		font-size: 20px;
+	}
+	#welcome .panel-heading .title{
+		font-size: 25px;
+	}
+	#welcome .panel-body{
+		font-size: 16px;
+	}
+	#welcome .panel-body .title{
+		font-size: 40px;
+	}
+	#welcome .panel-body .sectitle{
+		font-size: 25px;
+	}
+	#welcome .panel-body .definit{
+		font-size: 14px;
+	}   
+  }
+  
+  /* =======================================================================
+  ==========================================================================*/
+#expl{
+	background: #fff;
+	padding: 60px 0;
+	text-align: center;
+}
+#expl h2 {
+   font-weight: 700;
+   letter-spacing: 0.01em;
+   font-size: 50px;
+	color : #47484d;
+}
+#expl .blusep {
+  max-width: 80%;
+  border: 1px solid #87C2EA;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  text-align:center;
+}
+#expl .grsep {
+  max-width: 100%;
+  border: 1px solid #47484d;
+  margin-top: 1px;
+  margin-bottom: 5px;
+  text-align:center;
+}
+#expl h3 {
+	font-family: 'Droid Serif', serif;
 	text-align: left;
-	color: #fff;
-	margin-bottom: 40px;
+	margin-top: 30px;
+	font-size: 18px;
+	color : #47484d;
 }
-
+#expl h4 {
+	font-family: 'Raleway', sans-serif;
+	text-align: left;
+	margin-top: 30px;
+	font-size: 18px;
+	color : #47484d;
+}
     /* ==========================================================================
 Services Style
 ========================================================================== */
 #services {
-  background: #24242a;
+  background: #fff;
   padding: 60px 0;
   text-align: center;
 }
 #services h2 {
-  text-transform: uppercase;
-  color: #fff;
+ text-transform: uppercase;
+   color: #47484d;
+   font-weight: 700;
+   font-size: 50px;
+       letter-spacing: 0.2em;
 }
 #services p {
-  color: #fff;
+  color: #47484d;
 }
 #services .boxcontent{
   
-  width: 80%;
+  width: 100%;
   margin: auto;
   display: block;
   position: relative;
@@ -480,41 +659,148 @@ Services Style
 }
 #services .tehbox {
   width: 100%;
-  border: 2px solid #fff;
+  border: 2px solid #47484d;
    float: left;
    margin-bottom: 10px;
    
 }
+#services .redsep {
+  max-width: 43%;
+  border: 2px solid #DD5D44;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  text-align:center;
+}
 #services .bsep {
   max-width: 200px;
-  border: 1px solid #fff;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  margin: auto;
+  border: 1px solid #47484d;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
 }
 #services .ccontent{
-	height: 50%;
+	height: auto;
 	margin: auto;
+	font-size: 16px;
 	text-align: left;
-	margin-top: 10px;
-	margin-left: 36px;
+	margin-top: 1px;
+	margin-left: 13px;
 	margin-right: 36px;
 }
 #services .tehbox h1{
-	color: #fff;
-	font-size: 20px;
+	font-family: 'Droid Serif', serif;
+	color: #47484d;
+	font-size: 26px;
 	font-weight: bold;
-	text-transform: uppercase;
-	margin-bottom: 20px;
+	text-align: left;
+	text-transform: none;
+	margin-left: 13px;
+	margin-bottom: 2px;
+	letter-spacing: 0.01em;
+}
+#services .red{
+	border: 1px solid #D95D43;
+}
+#services .blue{
+	border: 1px solid #89C3E8;
+}
+#services .green{
+	border: 1px solid #279355;
+}
+#services .yellow{
+	border: 1px solid #FDC230;
+}
+#services .purple{
+	border: 1px solid #B291BA;
+}
+#services .tred{
+	height: auto;
+	margin: auto;
+	font-size: 16px;
+	text-align: left;
+	margin-top: 1px;
+	margin-left: 13px;
+	margin-right: 36px;
+	color: #D95D43;
+}
+#services .tblue{
+	height: auto;
+	margin: auto;
+	font-size: 16px;
+	text-align: left;
+	margin-top: 1px;
+	margin-left: 13px;
+	margin-right: 36px;
+	color: #89C3E8;
+}
+#services .tgreen{
+	height: auto;
+	margin: auto;
+	font-size: 16px;
+	text-align: left;
+	margin-top: 1px;
+	margin-left: 13px;
+	margin-right: 36px;
+	color: #279355;
+}
+#services .tyellow{
+	height: auto;
+	margin: auto;
+	font-size: 16px;
+	text-align: left;
+	margin-top: 1px;
+	margin-left: 13px;
+	margin-right: 36px;
+	color: #FDC230;
+}
+#services .tpurple{
+	height: auto;
+	margin: auto;
+	font-size: 16px;
+	text-align: left;
+	margin-top: 1px;
+	margin-left: 13px;
+	margin-right: 36px;
+	color: #B291BA;
+}
+#services .btn-transparent {
+  background: #ffd65c;
+      width: 200px;
+  border: 3px solid #47484d;
+  padding: 10px 20px;
+  margin-top: 60px;
+  font-size: 14px;
+  font-weight: 800;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  color: #47484d;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+#services .btn-transparent:hover,
+#services .btn-transparent:focus,
+#services .btn-transparent:active {
+  background: #47484d;
+  border: 3px solid #ffd65c;
+  color: #ffd65c;
+  text-decoration: none;
 }
 #services .tehbox h2{
-	color: #fff;
+	color: #47484d;
 	margin-left: 13px;
-	margin-right: 13px;
-	font-size: 16px;
+	font-size: 18px;
+	text-align: left;
 	font-weight: bold;
 	text-transform: none;
-	margin-bottom: 20px;
+	margin-bottom: 7px;
+	margin-top: 12px;
+	letter-spacing: 0.01em;
 }
 #services ul
 {
@@ -524,15 +810,15 @@ Services Style
 
 #services ul > li
 {
-    color: #fff;
+    color: #47484d;
 }
 
 #services ul > li > span
 {
-    color: #fff;
+    color: #47484d;
 }
 #services .tehbox p{
-	color: #fff;
+	color: #47484d;
 	font-size:16px;
 }
 #services .outbox {
@@ -540,7 +826,7 @@ Services Style
 	margin-bottom: 20px;
 }
 #services .outbox span{
-	color: #fff;
+	color: #47484d;
 	font-size:60px;
 	margin-top: 60px;
 	margin-bottom: 20px;
@@ -563,7 +849,7 @@ Services Style
 }
 #services .panel-heading{
 	font-size: 22px;
-	color: #fff;
+	color: #47484d;
 	background: #999999;
 }
 #services .services-box .col-md-4 {
@@ -584,21 +870,28 @@ Services Style
 #services .services-box .col-md-4 .media-right h3,
 #services .services-box .col-md-4 .media-body h3 {
   text-transform: uppercase;
-  color: #fff;
+  color: #47484d;
   text-align: left;
 }
 #services .services-box .col-md-4 .media-left span,
 #services .services-box .col-md-4 .media-right span,
 #services .services-box .col-md-4 .media-body span {
   font-size: 36px;
-  color: #fff;
+  color: #47484d;
 }
 
 #services .col-lg-4{
 	padding-top: 12px;
 	padding-bottom: 12px;
-	padding-left: 18px;
-	padding-right: 18px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#services .col-lg-2{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 
@@ -677,8 +970,12 @@ Work Process Style
   padding: 60px 0;
   text-align: center;
 }
-#work-process .col-sm-6{
- 
+#work-process .redsep {
+  max-width: 100%;
+  border: 2px solid #DD5D44;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  text-align:center;
 }
 #work-process .col-sm-6 .icon-left{
 	margin-top: 20px;
@@ -695,21 +992,82 @@ Work Process Style
 }
 #work-process h2 {
   text-transform: uppercase;
-   color: #24242a;
+   color: #47484d;
+   font-weight: 700;
+   font-size: 50px;
 }
-#work-process h4 {
-  text-transform: uppercase;
-  color: #24242a;
+#work-process p {
+  text-align: left;
+  color: #47484d;
+  font-size: 16px;
+  padding-bottom: 50px;
 }
 #work-process h3 {
-	text-align: left;
-	color: #24242a;
-	font-size: 16px;
+	font-family: 'Droid Serif', serif;
+	text-align: center;
+	color: #47484d;
+	text-decoration: underline;
+	font-size: 26px;
 }
-#work-process span {
-  font-size: 48px;
-  color: #24242a;
-  margin-bottom: 15px;
+#work-process .dtitle {
+	padding-bottom: 10px;
+}
+#work-process .dtitle .col-lg-2{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+#work-process .dtitle .col-lg-10{
+	padding-left: 0px;
+}
+ .underline{
+
+	text-decoration: underline;
+}
+#work-process .btn-transparent {
+  background: #ffd65c;
+      width: 200px;
+  border: 3px solid #47484d;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 800;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  color: #47484d;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+#work-process .btn-transparent:hover,
+#work-process .btn-transparent:focus,
+#work-process .btn-transparent:active {
+  background: #47484d;
+  border: 3px solid #ffd65c;
+  color: #ffd65c;
+  text-decoration: none;
+}
+@media (min-width: 1200px) {
+	#work-process .dtitle .col-lg-10{
+	padding-left: 0px;
+    padding-top: 9px;
+    text-align: left;
+}
+#services .col-lg-5{
+    width:20%;
+}
+}
+@media (max-width: 32em) {
+	#work-process .col-sm-8 h2{
+   font-size: 40px;
+}
+#services h2{
+   font-size: 40px;
+   letter-spacing: 0.1em;
+}
 }
     /* ==========================================================================
 Schedule

@@ -109,7 +109,7 @@ if (typeof Object.create !== "function") {
                 base.transitionTypes(base.options.transitionStyle);
             }
             if (base.options.autoPlay === true) {
-                base.options.autoPlay = 5000;
+                base.options.autoPlay = 5000000;
             }
             base.play();
 
@@ -753,11 +753,11 @@ if (typeof Object.create !== "function") {
 
         doTranslate : function (pixels) {
             return {
-                "-webkit-transform": "translate3d(" + pixels + "px, 0px, 0px)",
+              /*  "-webkit-transform": "translate3d(" + pixels + "px, 0px, 0px)",
                 "-moz-transform": "translate3d(" + pixels + "px, 0px, 0px)",
                 "-o-transform": "translate3d(" + pixels + "px, 0px, 0px)",
                 "-ms-transform": "translate3d(" + pixels + "px, 0px, 0px)",
-                "transform": "translate3d(" + pixels + "px, 0px,0px)"
+                "transform": "translate3d(" + pixels + "px, 0px,0px)"*/
             };
         },
 
@@ -1294,9 +1294,9 @@ if (typeof Object.create !== "function") {
             base.$owlWrapper
                 .addClass('owl-origin')
                 .css({
-                    "-webkit-transform-origin" : origin + "px",
+                    /*"-webkit-transform-origin" : origin + "px",
                     "-moz-perspective-origin" : origin + "px",
-                    "perspective-origin" : origin + "px"
+                    "perspective-origin" : origin + "px"*/
                 });
             function transStyles(prevPos) {
                 return {

@@ -76,286 +76,374 @@
                 </div>
             </div>
         </nav>
-		<header>
-		<div id="myCarousel" class="carousel slide" data-ride="carousel">
-		  <!-- Indicators -->
-		  <ol class="carousel-indicators">
-			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-			<li data-target="#myCarousel" data-slide-to="1"></li>
-		  </ol>
-
-		  <!-- Wrapper for slides -->
-		  <div class="carousel-inner" role="listbox">
-			<div class="item active">
-			  <img src="img/portfolio/Slides.jpg" alt="Chania">
-			</div>
-
-			<div class="item">
-			  <img src="img/portfolio/Slide2.jpg" alt="Flower">
-			</div>
-		  </div>
-
-		  <!-- Left and right controls -->
-		  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-			<!--<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>-->
-			<span class="sr-only">Previous</span>
-		  </a>
-		  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-			<!--<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
-			<span class="sr-only">Next</span>
-		  </a>
-		  <div class="main-text">
-                <div class="col-lg-12 col-md-12">
-				<div class="row">
-				<div class="col-lg-2 col-md-2"></div>
-				<div class="col-lg-8 col-md-8">
-                    <img class="img-responsive left-block" src="img/logoinf2.png"></div>
-				</div>
-				<div class="row">
-				<div class="col-lg-2 col-md-2 col-sm-2"></div>
-                <div class="col-lg-8 col-md-8 col-sm-8">
-					<h3>Bali, January 8th - 12, 2016 </h3>
-					<h2>A series of transformational workshops for thought leaders, peak performers, and business elites aimed to realize a new reality.</h2>
-                    <div class="isep">
-						<div class="col-lg-4 col-md-4 col-sm-4"><img class="img-responsive center-block hidden-sm hidden-xs" src="img/bg/sep.png"></div>
-						<div class="col-sm-4 col-lg-4 col-md-4"><a class="btn btn-transparent center-block" href="#">JUMP START HERE</a></div>
-						<div class="col-lg-4 col-md-4 col-sm-4"><img class="img-responsive center-block hidden-sm hidden-xs" src="img/bg/sep.png"></div>
+		<div id="owl-hero" class="owl-carousel owl-theme">
+            <div class="item" style="background-image: url(img/bg/intro.jpg)">
+                <div class="caption">
+                     <div class="main-text">
+						<div class="col-lg-12 col-md-12">
+						<div class="row">
+						<div class="col-lg-2 col-md-2"></div>
+						<div class="col-lg-8 col-md-8">
+							<img class="img-responsive left-block" src="img/logoinf2.png"></div>
+						</div>
+						<div class="row">
+						<div class="col-lg-2 col-md-2 col-sm-2"></div>
+						<div class="col-lg-8 col-md-8 col-sm-8">
+							<h3>Bali, January 8th - 12, 2016 </h3>
+							<h2>A series of transformational workshops for thought leaders, peak performers, and business elites aimed to realize a new reality.</h2>
+							<div class="isep">
+								<div class="col-lg-4 col-md-4 col-sm-4"><img class="img-responsive center-block hidden-sm hidden-xs" src="img/bg/sep.png"></div>
+								<div class="col-sm-4 col-lg-4 col-md-4"><a class="btn btn-transparent center-block" href="#">JUMP START HERE</a></div>
+								<div class="col-lg-4 col-md-4 col-sm-4"><img class="img-responsive center-block hidden-sm hidden-xs" src="img/bg/sep.png"></div>
+							</div>
+						</div>
+						</div>
+						</div>
 					</div>
-				</div>
-				</div>
                 </div>
             </div>
-		</div>
-		</header>
-		<!-- Header 
-		<header>
-			<div class="container">
-				<div class="intro-text">
-					<div class="intro-heading"><img class="img-responsive center-block" src="img/logoinf.jpg"></div>
-					<div class="intro-lead-in">Bali, Jan 8th - 12, 2016 <br>A series of transformational workshops for thought leaders, peak performers, and business elites <br>aimed to realize a new reality.</div>
-					<a class="btn btn-transparent" href="#">JUMP START HERE</a>
-				</div>
-			</div>-->
-		</header>
-        <!--<div id="owl-hero" class="owl-carousel owl-theme">
-            <div class="item" style="background-image: url(img/sliders/bali.jpg)">
-                <div class="caption">
-					<img src="img/logoinf.jpg">
-                    <h1>More <span><sup>2</sup></span></h1>
-					<h6> <br> <br> A series of transformational workshops for thought leaders, peak performers, and business elites <br>aimed to realize a new reality.<br>Limited registration is now open for our workshop in Bali, Jan 8th - 12, 2016,<br> There is a limited amounts of spaces for this dream workshop.<br> 
-						Early bird pricing will be available only until December 8, 2015 <br><br> </h6>
-                    <a class="btn btn-transparent" href="#">JUMP START HERE</a><a class="btn btn-light" href="#">Learn More</a>
-                </div>
-            </div>
-            
-            <div class="item" style="background-image: url(img/sliders/bali2.jpg)">
-                <div class="caption">
-					<img src="img/logoinf.jpg">
-					<h6> <br> <br> A series of transformational workshops for thought leaders, peak performers, and business elites <br>aimed to realize a new reality.<br>Limited registration is now open for our workshop in Bali, Jan 8th - 12, 2016,<br> There is a limited amounts of spaces for this dream workshop.<br> 
-						Early bird pricing will be available only until December 8, 2015 <br><br> </h6>
-                    <a class="btn btn-transparent" href="#">JUMP START HERE</a><a class="btn btn-light" href="#">Learn More</a>
-                </div>
-            </div>
-        </div>-->
+        </div>
+		
     </section>
     <!-- Work Process
 	============================================= -->
     <section id="work-process">
-        <div class="container">
-            <h2><br>5 Day Retreat in Bali</h2>
-            <hr class="light-sep">
-            <p> </p>
-			<div class="row wow fadeInUp" data-wow-delay=".3s">
-				<div class="col-sm-6">
-					<div class="icon-left">
-						<span class="icon-heart"></span>
-					</div>
-					<div class="text-right">
-						<h3>This life changing program led by Oskar Saville-Doyle. In whatever area you are looking to get more from, whether it be growing your business to the next level, creating more financial freedom or ways to live a more fulfilled life with more joy and more happiness, there is no better time than now to transcend your greatest limitations and create your own breakthrough to the greatest you possible. </h3>
+        <div class="container-fluid">
+		<div class="col-lg-12 col-md-12">
+				<div class="row">
+					<div class="col-lg-2 col-md-2"></div>
+						<div class="col-lg-8 col-md-8">
+							<img class="img-responsive center-block" src="img/petabali.png">
+						</div>
+				</div>
+				<div class="row">
+				<div class="col-lg-2 col-md-2 col-sm-2"></div>
+                <div class="col-lg-8 col-md-8 col-sm-8">
+					<h2>5 Day Retreat in Bali</h2>
+					<div class="col-lg-2 col-md-2 col-sm-2"></div>
+					<div class="col-lg-8 col-md-8 col-sm-8">
+						<div class="redsep center-block"></div><br>
+						<div class="dtitle">
+							<div class="row">
+								<h3>
+									<div class="col-lg-2 col-md-2 col-sm-2">
+										<img class="img-responsive center-block" src="img/bg/icon1.png"></img>
+									</div>
+									<div class="col-lg-10 col-md-10 col-sm-10">
+										<span class="underline">WHAT IS CREATE MORE? </span>
+									</div>
+								</h3>
+							</div>
+						</div>
+							<p>
+							   This life changing program is led by <b>Oskar Saville-Doyle</b> and will assist you down the path of the happiness you have been searching for! In any area you are looking to gain more out of your life, whether it be growing your business to the next level, creating more financial freedom, greater intimacy in relationships or just identifying ways to live a more fulfilled life, there is no better time than now to transcend your greatest limitations and create your own breakthrough to the authentic you and to the greatest life possible. 
+							</p>
+						<div class="dtitle">
+							<div class="row">
+								<h3>
+									<div class="col-lg-2 col-md-2 col-sm-2">
+										<img class="img-responsive center-block" src="img/bg/icon2.png"></img>
+									</div>
+									<div class="col-lg-10 col-md-10 col-sm-10">
+										<span class="underline">WHO IS THIS WORKSHOP FOR?</span>
+									</div>
+								</h3>
+							</div>
+						</div>
+							<p>
+							   This retreat is highly customized for leaders, peak performers, and business elites who want to experience the excitement and happiness of the next level of life. You are a highly successful individual who understands that there is more to life and that you deserve it all; these five days will bring you the understanding of how to get there.
+							</p>
+						<div class="dtitle">
+							<div class="row">
+								<h3>
+									<div class="col-lg-2 col-md-2 col-sm-2">
+										<img class="img-responsive center-block" src="img/bg/icon3.png"></img>
+									</div>
+									<div class="col-lg-10 col-md-10 col-sm-10">
+										<span class="underline">HOW TO ACHIEVE MORE?</span>
+									</div>
+								</h3>
+							</div>
+						</div>
+							<p>
+							   Our one-of-a-kind approach combines an in-depth exploration of the psychological, mental and emotional blocks that get in your way when you are trying to create greater happiness. Through the systematic process of identifying and analyzing the narratives and belief systems in our conscious and subconscious minds, this workshop will show you how to jumpstart your 2016 into another dimension, where life is easier and more joyful, and where work becomes joyous, playful, and meaningful in every moment.
+							</p>
+							
+								<a class="btn btn-transparent center-block" href="#">SEE DATE AND RATES</a>
+							
 					</div>
 				</div>
-				<div class="col-sm-6">
-					<div class="icon-left">
-						<span class="icon-linegraph"></span>
-					</div>
-					<div class="text-right">
-						<h3>This retreat is highly customized for leaders, peak performers, and business elites who want to experience the excitement and happiness of the next level of life. Most of the participants are highly-successful individuals who understand that there is more to life and that they deserve it all. </h3>
-					</div>
 				</div>
-			</div>
-            <div class="row wow fadeInUp" data-wow-delay=".6s">
-				<div class="col-sm-6">
-					<div class="icon-left">
-						<span class="icon-leaf"></span>
-					</div>
-					<div class="text-right">
-						<h3>Our one-of-a-kind approach combines an in-depth exploration of the psychological, mental and emotional blocks that get in our way to greatness and happiness.</h3>
-					</div>
-				</div>
-				<div class="col-sm-6">
-					<div class="icon-left">
-						<span class="icon-accessibility"></span>
-					</div>
-					<div class="text-right">
-						<h3>This workshop will show you how to  jumpstart your 2016 into another dimension of life, where life is easier, happier and work becomes joyous, playful, and meaningful in every moment.</h3>
-					</div>
-				</div>
-			</div>
-            
+        </div>
         </div>
     </section>
 	 <!-- Welcome
 	============================================= -->
 	 <section id="welcome">
-        <div class="container">
-            
-            <h2>You can expect to finally answer the following questions:</h2>
-            <hr class="light-sep">
-       <div class="bg">
-		<div class="col-md-6">
-			<div class="texts">
-				<table>
-				  <tr>
-					<!--<td><p><span class="icon-circle-right"></p></td>-->
-					<td><p>What's next in my life?</p></td>
-				  </tr>
-				  <tr>
-					
-					<td><p>How can I feel even more fulfilled?</p></td>
-				  </tr>
-				  <tr>
-					
-					<td><p>How do I continue the growth I've been experiencing and <br>take it one step even further?</p></td>
-				  </tr>
-				  <tr>
-					
-					<td><p>I'm happy with life, but is this all there is?</p></td>
-				  </tr>
-				</table>
+        <div class="container-fluid">
+            <div class="col-lg-12 col-md-12">
+				<div class="row"> 
+					<div class="col-lg-2 col-md-2 col-sm-2"></div>
+					<div class="col-lg-8 col-md-8 col-sm-8">
+						<h2>Date and Rates</h2>
+						<div class="col-lg-2 col-md-2 col-sm-2"></div>
+						<div class="col-lg-8 col-md-8 col-sm-8">
+							<div class="yellsep center-block"></div>
+							<div class="dtitle">
+								<div class="row">
+									<h3>
+										<div class="col-lg- col-md-1 col-sm-1"></div>
+										<div class="col-lg-10 col-md-10 col-sm-10">
+											<h3>Workshop is held in Bali <br>on January 8th – 12th 2016</h3>
+											<h4>Exclusively limited amount<br>of space is available for<br>this dream workshop!</h4>
+											<h4>Early bird pricing will only be available until <b>December 8, 2015 REGISTRATION IS NOW OPEN</b></h4>
+										</div>
+									</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-2 col-md-2 col-sm-2"></div>
+					<div class="col-lg-4 col-md-4 col-sm-4">
+						<div class="panel ypanel">
+						  <div class="panel-heading">
+							<span class="title">Single occupant</span><br>
+							(gets a<b> private</b> suite)
+						  </div>
+						  <div class="panel-body">
+							<span class="title">$ 7,859</span><b> (early bird)</b><br>
+							<span class="sectitle">$ 8,659</span><span class="definit"><b>  (normal price)</b></span><br>
+							<div class="greysep center-block"></div>
+						  </div>
+						  <div class="panel-body">
+							<span class="definit">Rate per person</span><br>
+							<div class="greysep center-block"></div>
+						  </div>
+						  <div class="panel-body">
+							<span class="definit">Transportation from airport to venue, and back to airport from venue</span><br>
+							<div class="greysep center-block"></div>
+						  </div>
+						  <div class="panel-body">
+							<span class="definit">Three meals a day of world-class cuisine</span><br>
+							<div class="greysep center-block"></div>
+						  </div>
+						  <div class="panel-body">
+							<span class="definit">Free flow beverage (including house wine, local brand spirits and beers)</span><br>
+							<div class="greysep center-block"></div>
+						  </div>
+						  <div class="panel-body">
+							<span class="definit">Pre-programmed excursions</span><br>
+							<div class="greysep center-block"></div>
+						  </div>
+						  <div class="panel-body">
+							<span class="definit">Single occupancy per room</span><br>
+							<div class="greysep center-block"></div>
+						  </div>
+						  <div class="panel-body">
+							<span class="definit">1x set of Twin Beds</span><br>
+							<div class="greysep center-block"></div>
+						  </div>
+						  <div class="panel-body">
+							<span class="definit">Separate shared bathroom</span><br>
+							<div class="greysep center-block"></div>
+						  </div>
+						  <div class="panel-body">
+							<span class="definit">All access to villa’s facilities</span><br>
+							<div class="greysep center-block"></div>
+						  </div>
+						  <div class="panel-body">
+						   <br>
+						  </div>
+						  <div class="panel-body">
+							<a class="btn btn-yel center-block" href="#">BUY NOW</a><br>
+						  </div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4">
+						<div class="panel bpanel">
+						  <div class="panel-heading">
+							<span class="title">Person shared</span><br>
+							(gets a <b>shared</b> suite)
+						  </div>
+						  <div class="panel-body">
+							<span class="title">$ 7,859</span><b> (early bird)</b><br>
+							<span class="sectitle">$ 8,659</span><span class="definit"><b>  (normal price)</b></span><br>
+							<div class="greysep center-block"></div>
+						  </div>
+						  <div class="panel-body">
+							<span class="definit">Rate per person</span><br>
+							<div class="greysep center-block"></div>
+						  </div>
+						  <div class="panel-body">
+							<span class="definit">Transportation from airport to venue, and back to airport from venue</span><br>
+							<div class="greysep center-block"></div>
+						  </div>
+						  <div class="panel-body">
+							<span class="definit">Three meals a day of world-class cuisine</span><br>
+							<div class="greysep center-block"></div>
+						  </div>
+						  <div class="panel-body">
+							<span class="definit">Free flow beverage (including house wine, local brand spirits and beers)</span><br>
+							<div class="greysep center-block"></div>
+						  </div>
+						  <div class="panel-body">
+							<span class="definit">Pre-programmed excursions</span><br>
+							<div class="greysep center-block"></div>
+						  </div>
+						  <div class="panel-body">
+							<span class="definit">Single occupancy per room</span><br>
+							<div class="greysep center-block"></div>
+						  </div>
+						  <div class="panel-body">
+							<span class="definit">Shared occupancy room</span><br>
+							<div class="greysep center-block"></div>
+						  </div>
+						  <div class="panel-body">
+							<span class="definit">1x set of Twin Beds</span><br>
+							<div class="greysep center-block"></div>
+						  </div>
+						  <div class="panel-body">
+							<span class="definit">Separate shared bathroom</span><br>
+							<div class="greysep center-block"></div>
+						  </div>
+						  <div class="panel-body">
+							<span class="definit">All access to villa’s facilities</span><br>
+							<div class="greysep center-block"></div>
+						  </div>
+						  <div class="panel-body">
+							<a class="btn btn-blue center-block" href="#">BUY NOW</a><br>
+						  </div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-		<div class="col-md-6">
-			<div class="texts">
-				<table>
-				  <tr>
-					
-					<td><p>How much further can I take myself, my life, and <br>my work forward?</p></td>
-				  </tr>
-				  <tr>
-					
-					<td><p>How can I improve my relationships with those around me?</p></td>
-				  </tr>
-				  <tr>
-					
-					<td><p>How can I spend my time with more meaning and joy?</p></td>
-				  </tr>
-				  <tr>
-					
-					<td><p>How can I connect further with people I love and <br>the people I work with?</p></td>
-				  </tr>
-				</table>
-			</div>
-		</div>
-		</div>
-        </div>
     </section>
+	<!-- 
+	============================================= -->
+	<section id="expl">
+		<div class="container-fluid">
+			<div class="col-lg-12 col-md-12">
+					<div class="row"> 
+						<div class="col-lg-2 col-md-2 col-sm-2"></div>
+						<div class="col-lg-8 col-md-8 col-sm-8">
+							<h2>YOU CAN EXPECT TO FINALLY ANSWER SOME OF YOUR MOST PRESSING QUESTIONS:</h2>
+							<hr class="blusep">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-4 col-md-4 col-sm-4"></div>
+						<div class="col-lg-4 col-md-4 col-sm-4">
+							<h3>What’s next in my life?</h3>
+							<hr class="grsep">
+							<h4>How can I feel even more fulfilled?</h4>
+							<hr class="grsep">
+							<h3>How do I continue the growth I’ve been experiencing and take it even further?</h3>
+							<hr class="grsep">
+							<h4><b>I’m happy with life, but is this all there is?</b></h4>
+							<hr class="grsep">
+							<h3>How much further can I propel myself, my life, and my work forward?</h3>
+							<hr class="grsep">
+							<h4>How can I improve my relationships with those around me?</h4>
+							<hr class="grsep">
+							<h3>How can I spend more of my time doing things that bring meaning and joy?</h3>
+							<hr class="grsep">
+							<h4>How can I connect more deeply with the people I love and the people I work with?</h4>
+							<hr class="grsep">
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4"></div>
+					</div>
+			</div>	
+		</div>
+	</section>
     <!-- Services
 	============================================= -->
     <section id="services">
-        <div class="container">
+        <div class="container-fluid">
             <h2>Retreat Itinerary</h2>
-            <hr class="light-sep">
-            <p> </p>
-            
-                <div class="row wow fadeInUp" data-wow-delay=".3s">
+            <hr class="redsep">
+            <div class="col-lg-12">
+                <div class="row">
                  <div class="boxcontent">
-					 <div class="col-lg-4">
+					 <div class="col-lg-2 col-md-4 col-sm-4 col-lg-5">
 						<div class="tehbox">
 							<h1>Day 1</h1>
-							<div class="bsep"></div>
-							<h2>Finding Out What You Really Want and Setting Goals</h2>
-							<div class="bsep"></div>
-							<div class="ccontent">
-								<p>Friday, January 8, 2016</p>
+							<div class="tred">
+								<span>Fri, January 8, 2016</span>
 							</div>
-							<div class="bsep"></div>
+							<h2>Getting clarity on your belief system and finding out what you really want</h2>
+							<div class="bsep red"></div>
 							<div class="ccontent">
-								<p>After arriving in our beautiful Bali villa, you will immediately meet a special community of like-minded and successful individuals. Oskar will immediately guide you to uncover each of your deepest desires and help you set goals for your new reality. Oskar will also start energetic clearing with you almost immediately by accessing her intuitive talent. You will experience change by this first day.</p>
+								<p>After arriving to your beautiful Bali villa, you will immediately meet a special community of like-minded and successful individuals. Oskar will promptly guide you to identify your deepest desires, and will help you set goals for your new reality.  This systematic process of identifying your underlying belief systems will be deeply impactful; you will experience significant change this first day.</p>
 							</div>
 							<!--<div class="mid"><a class="btn btn-light" href="#">Learn More</a></div>-->
 						</div>
 					</div>
-					<div class="col-lg-4">
+					<div class="col-lg-2 col-md-4 col-sm-4 col-lg-5">
 						<div class="tehbox">
 							<h1>Day 2</h1>
-							<div class="bsep"></div>
-							<h2>Uncovering All of Your Blocks</h2>
-							<div class="bsep"></div>
-							<div class="ccontent">
-								<p>Saturday, January 9, 2016</p>
+							<div class="tblue">
+								<span>Sat, January 9, 2016</span>
 							</div>
-							<div class="bsep"></div>
+							<h2>Uncovering All of Your Blocks<br><br><br> </h2>
+							<div class="bsep blue"></div>
 							<div class="ccontent">
-								<p>The creativity that will bring your life prosperity & growth can only be accessed when you are open and willing to show the best of who you are. However, fears and blockages may have limit your potentials. Oskar will help you understand these blocks that have been stopping you to achieve creative wholeness. Your own detox will continue throughout this day.<br><br><br> </p>
+								<p>The creativity and playfulness that will bring your life prosperity & growth can only be accessed when you are open and willing to show the best of who you are.  However, fears and blockages may have limit your potential. Oskar will help you understand these blocks that have been standing in the way of achieving creative wholeness.  This detoxifying process will continue throughout the day.</p>
 							</div>
 							<!--<div class="mid"><a class="btn btn-light" href="#">Learn More</a></div>-->
 						</div>
 					</div>
-					<div class="col-lg-4">
+					<div class="col-lg-2 col-md-4 col-sm-4 col-lg-5">
 						<div class="tehbox">
 							<h1>Day 3</h1>
-							<div class="bsep"></div>
-							<h2>UnLearn All of Your Limiting Patterns and Blocks</h2>
-							<div class="bsep"></div>
-							<div class="ccontent">
-								<p>Sunday, January 10, 2016</p>
+							<div class="tgreen">
+								<span>Sun, January 10, 2016</span>
 							</div>
-							<div class="bsep"></div>
+							<h2>Redefining your limiting patterns and blocks.<br><br> </h2>
+							<div class="bsep green"></div>
 							<div class="ccontent">
-								<p>As we reach the third day, the energetic limiting patterns and beliefs have been uncovered and it is time to really clear the fears and blocks inside of you. Breakthroughs and eureka moments will continue to happen as we progressed through the retreat.<br><br><br><br><br><br> </p>
+								<p>As we reach the third day, many of your core limiting patterns and beliefs have been uncovered and it is time to really clear the fears and blocks inside of you. Breakthroughs and eureka moments will continue to happen as we progress through this process.</p>
 							</div>
 							<!--<div class="mid"><a class="btn btn-light" href="#">Learn More</a></div>-->
 						</div>
 					</div>
-
-				</div>
-			</div>
-			<div class="row wow fadeInUp" data-wow-delay=".6s">
-                 <div class="boxcontent">
-					<div class="col-lg-4">
+					<div class="col-lg-2 col-md-4 col-sm-4 col-lg-5">
 						<div class="tehbox">
 							<h1>Day 4</h1>
-							<div class="bsep"></div>
-							<h2>Moving Into Possibilities!</h2>
-							<div class="bsep"></div>
-							<div class="ccontent">
-								<p>Monday, January 11, 2016</p>
+							<div class="tyellow">
+								<span>Mon, January 11, 2016</span>
 							</div>
-							<div class="bsep"></div>
+							<h2>Moving into possibilities!<br><br><br> </h2>
+							<div class="bsep yellow"></div>
 							<div class="ccontent">
-								<p>We are starting to see changes in our brains' neural pathways and redefining our brain connectors, as we begin to shift into new possibilities. Understanding that these possibilities that we're moving into are those that you may have never imagined before.</p>
+								<p>We are starting to see changes in our brains' neural pathways and redefining our brain connectors as we begin to shift into new possibilities. You will now see that the possibilities you’re uncovering are ones you have never imagined before.</p>
 							</div>
 							<!--<div class="mid"><a class="btn btn-light" href="#">Learn More</a></div>-->
 						</div>
 					</div>
-					<div class="col-lg-4">
+					<div class="col-lg-2 col-md-4 col-sm-4 col-lg-5">
 						<div class="tehbox">
-							<h1>Day 6</h1>
-							<div class="bsep"></div>
-							<h2>Creating New Reality!</h2>
-							<div class="bsep"></div>
-							<div class="ccontent">
-								<p>Tuesday, January 12, 2016</p>
+							<h1>Day 5</h1>
+							<div class="tpurple">
+								<span>Tue, January 12, 2016</span>
 							</div>
-							<div class="bsep"></div>
+							<h2>Creating your new reality!<br><br><br> </h2>
+							<div class="bsep purple"></div>
 							<div class="ccontent">
-								<p>Reaching the final day of the retreat, we will see movements and changes to a new amazing, unprecedented reality that have already begun in each of the participants' lives. Saying goodbye to beautiful Bali and getting ready to embark a new life.</p>
+								<p>Entering this final day of the retreat, we notice major changes within ourselves as we visualize our new amazing and unprecedented reality.  We will discuss setting and operationalizing our goals.  And here, we say goodbye to beautiful Bali and begin the first day of the rest of our lives.</p>
 							</div>
 							<!--<div class="mid"><a class="btn btn-light" href="#">Learn More</a></div>-->
 						</div>
 					</div>
 				</div>
-        </div>
+			</div>
+			<div class="row">
+				<a class="btn btn-transparent center-block" href="#">Apply now</a>
+			</div>
+			</div>
+			
     </section>
 	
 	<!-- Portfolio
@@ -365,7 +453,7 @@
             <h2>Our Accomodation</h2>
             <hr class="light-sep">
             <p>We will all be staying in a highly luxurious villa with six air-conditioned en-suite bedrooms with king or twin beds, with semi open-air garden bathrooms with tropical outdoor showers. Private terraces outside all bedrooms and rooftop terrace, overlooking a 21-metre private curved swimming pool. Other facilities: table tennis, flood-lit tennis court, basketball hoop, soccer net, gym.</p>
-            <div class="row">
+            <div class="row-fluid">
                 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
                     <a class="portfolio-box" href="img/portfolio/bali.jpg" data-lightbox="image-1" data-title="Your caption">
                         <img src="img/portfolio/bali.jpg" class="img-responsive" alt="1">
@@ -629,7 +717,7 @@
 	<script src="bootstrap-assets/js/bootstrap.js"></script>
     <script src="js/custom.js"></script>
     <!-- JS PLUGINS -->
-    <script src="plugins/owl-carousel/owl.carousel.min.js"></script>
+    <script src="plugins/owl-carousel/owl.carousel.js"></script>
     <script src="js/jquery.easing.min.js"></script>
     <script src="plugins/countTo/jquery.countTo.js"></script>
     <script src="plugins/inview/jquery.inview.min.js"></script>
