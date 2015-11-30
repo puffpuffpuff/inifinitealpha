@@ -253,12 +253,18 @@ Navigation Style
 }
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
+<<<<<<< HEAD
 	-moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+=======
+	min-width: 100%;
+	  height: 700px;
+	  max-width: none;
+>>>>>>> origin/master
 }
 
 .main-text
@@ -1056,17 +1062,23 @@ Work Process Style
     padding-top: 9px;
     text-align: left;
 }
+<<<<<<< HEAD
 #services .col-lg-5{
     width:20%;
 }
+=======
+>>>>>>> origin/master
 }
 @media (max-width: 32em) {
 	#work-process .col-sm-8 h2{
    font-size: 40px;
+<<<<<<< HEAD
 }
 #services h2{
    font-size: 40px;
    letter-spacing: 0.1em;
+=======
+>>>>>>> origin/master
 }
 }
     /* ==========================================================================
