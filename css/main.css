@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,800,200);
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif:700italic);
 /* ==========================================================================
@@ -275,7 +274,7 @@ Navigation Style
 .main-text h3{
 	color: #fff;
 	font-size: 26px;
-	font-family: 'Droid Serif', serif;
+	font-family: 'Droid Serif' !important;
 	text-align: left;
 	line-height: 31px;
 }
@@ -448,7 +447,7 @@ Welcome Style
   text-align:center;
 }
 #welcome h3 {
-	font-family: 'Droid Serif', serif;
+	font-family: 'Droid Serif' !important;
 	text-align: center;
 	color: #fff;
 	font-size: 26px;
@@ -542,7 +541,7 @@ Welcome Style
 	font-size: 26px;
 }
 #welcome .panel-heading .title{
-	font-family: 'Droid Serif', serif;
+	font-family: 'Droid Serif' !important;
 	text-align: center;
 	font-size: 40px;
 }
@@ -618,7 +617,7 @@ Welcome Style
   text-align:center;
 }
 #expl h3 {
-	font-family: 'Droid Serif', serif;
+	font-family: 'Droid Serif' !important;
 	text-align: left;
 	margin-top: 30px;
 	font-size: 18px;
@@ -693,7 +692,7 @@ Services Style
 	margin-right: 36px;
 }
 #services .tehbox h1{
-	font-family: 'Droid Serif', serif;
+	font-family: 'Droid Serif' !important;
 	color: #47484d;
 	font-size: 26px;
 	font-weight: bold;
