@@ -275,6 +275,8 @@ Navigation Style
 	color: #fff;
 	font-size: 26px;
 	font-family: 'Droid Serif' !important;
+	font-weight: 700;
+	font-style: italic;
 	text-align: left;
 	line-height: 31px;
 }
@@ -448,6 +450,8 @@ Welcome Style
 }
 #welcome h3 {
 	font-family: 'Droid Serif' !important;
+	font-weight: 700;
+	font-style: italic;
 	text-align: center;
 	color: #fff;
 	font-size: 26px;
@@ -542,6 +546,8 @@ Welcome Style
 }
 #welcome .panel-heading .title{
 	font-family: 'Droid Serif' !important;
+	font-weight: 700;
+	font-style: italic;
 	text-align: center;
 	font-size: 40px;
 }
@@ -618,6 +624,8 @@ Welcome Style
 }
 #expl h3 {
 	font-family: 'Droid Serif' !important;
+	font-weight: 700;
+	font-style: italic;
 	text-align: left;
 	margin-top: 30px;
 	font-size: 18px;
@@ -695,7 +703,8 @@ Services Style
 	font-family: 'Droid Serif' !important;
 	color: #47484d;
 	font-size: 26px;
-	font-weight: bold;
+	font-weight: 700;
+	font-style: italic;
 	text-align: left;
 	text-transform: none;
 	margin-left: 13px;
@@ -1008,6 +1017,8 @@ Work Process Style
 }
 #work-process h3 {
 	font-family: 'Droid Serif', serif;
+	font-weight: 700;
+	font-style: italic;
 	text-align: center;
 	color: #47484d;
 	text-decoration: underline;
