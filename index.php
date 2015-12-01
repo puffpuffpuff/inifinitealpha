@@ -76,7 +76,7 @@
                 </div>
             </div>
         </nav>
-	<div id="owl-hero" class="owl-carousel owl-theme">
+		<div id="owl-hero" class="owl-carousel owl-theme">
             <div class="item" style="background-image: url(img/bg/intro.jpg)">
                 <div class="caption">
                      <div class="main-text">
@@ -450,148 +450,70 @@
 	============================================= -->						
     <section id="portfolio">
         <div class="container-fluid">
-            <h2>Our Accomodation</h2>
-            <hr class="light-sep">
-            <p>We will all be staying in a highly luxurious villa with six air-conditioned en-suite bedrooms with king or twin beds, with semi open-air garden bathrooms with tropical outdoor showers. Private terraces outside all bedrooms and rooftop terrace, overlooking a 21-metre private curved swimming pool. Other facilities: table tennis, flood-lit tennis court, basketball hoop, soccer net, gym.</p>
-            <div class="row-fluid">
-                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
-                    <a class="portfolio-box" href="img/portfolio/bali.jpg" data-lightbox="image-1" data-title="Your caption">
-                        <img src="img/portfolio/bali.jpg" class="img-responsive" alt="1">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    -
-                                </div>
-                                <div class="project-name">
-                                    Overlooking by The Pool
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
-                    <a href="img/portfolio/bali2.jpg" class="portfolio-box" data-lightbox="image-2" data-title="Your caption">
-                        <img src="img/portfolio/bali2.jpg" class="img-responsive" alt="2">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    -
-                                </div>
-                                <div class="project-name">
-                                    Guest Suit Double Bed
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
-                    <a href="img/portfolio/bali3.jpg" class="portfolio-box" data-lightbox="image-3" data-title="Your caption">
-                        <img src="img/portfolio/bali3.jpg" class="img-responsive" alt="3">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    -
-                                </div>
-                                <div class="project-name">
-                                    Guest Suit Bathroom
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".6s">
-                    <a href="img/portfolio/bali4.jpg" class="portfolio-box" data-lightbox="image-4" data-title="Your caption">
-                        <img src="img/portfolio/bali4.jpg" class="img-responsive" alt="4">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    -
-                                </div>
-                                <div class="project-name">
-                                    Tennis Court and Gymnasium
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".6s">
-                    <a href="img/portfolio/bali5.jpg" class="portfolio-box" data-lightbox="image-5" data-title="Your caption">
-                        <img src="img/portfolio/bali5.jpg" class="img-responsive" alt="5">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    -
-                                </div>
-                                <div class="project-name">
-                                    Meida Room
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".6s">
-                    <a href="img/portfolio/bali6.jpg" class="portfolio-box" data-lightbox="image-6" data-title="Your caption">
-                        <img src="img/portfolio/bali6.jpg" class="img-responsive" alt="6">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    -
-                                </div>
-                                <div class="project-name">
-                                    Special Dinner Setup
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-				<div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".9s">
-                    <a href="img/portfolio/bali7.jpg" class="portfolio-box" data-lightbox="image-6" data-title="Your caption">
-                        <img src="img/portfolio/bali7.jpg" class="img-responsive" alt="6">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    -
-                                </div>
-                                <div class="project-name">
-                                    Outdoor Lounge
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-				<div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".9s">
-                    <a href="img/portfolio/bali8.jpg" class="portfolio-box" data-lightbox="image-6" data-title="Your caption">
-                        <img src="img/portfolio/bali8.jpg" class="img-responsive" alt="6">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    -
-                                </div>
-                                <div class="project-name">
-                                    Afternoon Tea on Terrace
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-				<div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".9s">
-                    <a href="img/portfolio/bali9.jpg" class="portfolio-box" data-lightbox="image-6" data-title="Your caption">
-                        <img src="img/portfolio/bali9.jpg" class="img-responsive" alt="6">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    -
-                                </div>
-                                <div class="project-name">
-                                    Main Lounge
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
+            <div class="col-lg-12 col-md-12">
+					<div class="row"> 
+						<div class="col-lg-2 col-md-2 col-sm-2"></div>
+						<div class="col-lg-8 col-md-8 col-sm-8">
+							<h2>OUR ACCOMODATION</h2>
+							<hr class="blusep">
+						</div>
+					</div>
+			</div>
         </div>
     </section>
+	<section id="testimonials">
+        <div class="container"></div>
+	</section>
+	<section id="imagecollection">
+		<div class="container-fluid">
+			<div class="col-lg-12 col-md-12">
+				<div class="row">
+					<div class="col-lg-2 col-md-2 col-sm-2"></div>
+					<div class="col-lg-2 col-md-2 col-sm-2">
+						<img class="img-responsive center-block" src="img/img/bedroom.png">
+						<h3>Bedrooms</h3>
+						<h4>Six air-conditioned bedrooms with ensuite semi open-air garden bathrooms and tropical outdoor showers</h4>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2">
+						<img class="img-responsive center-block" src="img/img/indoorliving.png">
+						<h3>Indoor Living</h3>
+						<h4>Open area sitting with a view of the whole facilities, that includes a media room with cinema-like experience</h4>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2">
+						<img class="img-responsive center-block" src="img/img/spaces.png">
+						<h3>Spaces</h3>
+						<h4>The villa consists of a series of luxurious pavilions that includes a large two-storey dwelling housing, a communal living with entertainment areas, water features and an immense garden and lawn.</h4>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2">
+						<img class="img-responsive center-block" src="img/img/pool.png">
+						<h3>Pool</h3>
+						<h4>A large pool deck is available, with sun-loungers to unwind. By night, a candlelight dinner and poolside BBQ is set up</h4>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2"></div>
+				</div>
+				<div class="row">
+					<div class="col-lg-2 col-md-2 col-sm-2"></div>
+					<div class="col-lg-2 col-md-2 col-sm-2">
+						<img class="img-responsive center-block" src="img/img/sport.png">
+						<h3>Sports</h3>
+						<h4>Access to the Canggu Cluband all its world-class facilities. The accommodation is equipped with sport facilities including a 21-metre private curved swimming pool, an indoor gym, basketball hoop, squash court, flood-lit tennis court, table tennis, soccer court and a wide range of classes like yoga and pilates.</h4>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2">
+						<img class="img-responsive center-block" src="img/img/staff.png">
+						<h3>Staff</h3>
+						<h4>Fulltime management by professional villa manager and a team of private butlers, professional chef, housemaids, gardeners and security staff.</h4>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2">
+						<img class="img-responsive center-block" src="img/img/foodandbeverage.png">
+						<h3>Food and Beverage</h3>
+						<h4>Three-day meal with snacks in between of renowned world-class cuisine. Free flow of alcoholic and non-alcoholic beverage is also available.</h4>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2"></div>
+					<div class="col-lg-2 col-md-2 col-sm-2"></div>
+				</div>
+			</div>
+		</div>
+	</section>
 	<!-- team
 	============================================= -->
     <section id="team">
