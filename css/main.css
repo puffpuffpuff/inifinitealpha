@@ -418,11 +418,7 @@ Sliders Style
 #owl-hero:hover .owl-next {
   right: -5px;
 }
-@media (max-width: 32em) {
-	#owl-hero {
-    height: 600px;
-}
-}
+
 
 
     /* ==========================================================================
