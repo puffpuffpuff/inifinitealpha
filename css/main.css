@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,800,200);
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif:700italic);
 /* ==========================================================================
@@ -417,7 +418,11 @@ Sliders Style
 #owl-hero:hover .owl-next {
   right: -5px;
 }
-
+@media (max-width: 32em) {
+	#owl-hero {
+    height: 600px;
+}
+}
 
 
     /* ==========================================================================
@@ -430,9 +435,9 @@ Welcome Style
 }
 #welcome h2 {
   text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
   color: #fff;
   text-transform: uppercase;
-   font-weight: 700;
    letter-spacing: 0.17em;
    font-size: 50px;
 }
@@ -606,10 +611,11 @@ Welcome Style
 #expl h2 {
    font-weight: 700;
    letter-spacing: 0.01em;
+   font-family: 'Open Sans', sans-serif;
    font-size: 50px;
 	color : #47484d;
 }
-#expl .blusep {
+ .blusep {
   max-width: 80%;
   border: 1px solid #87C2EA;
   margin-top: 30px;
@@ -655,6 +661,7 @@ Services Style
 #services h2 {
  text-transform: uppercase;
    color: #47484d;
+   font-family: 'Open Sans', sans-serif;
    font-weight: 700;
    font-size: 50px;
        letter-spacing: 0.2em;
@@ -913,67 +920,51 @@ Services Style
 Portfolio Style
 ========================================================================== */
 #portfolio {
-  padding: 60px 0;
+  padding-top: 60px ;
+  padding-bottom: 10px;
   text-align: center;
 }
 #portfolio h2 {
+	color: #47484d;
   text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+   letter-spacing: 0.17em;
+   font-size: 50px;
+   font-weight: 700;
 }
-#portfolio p {
-  margin-bottom: 40px;
-  margin-left: 100px;
-  margin-right: 100px;
+@media (max-width: 32em) {
+	#portfolio h2 {
+    font-size: 27px;
+	letter-spacing: 0.01em;
 }
-#portfolio .container-fluid {
-  padding-left: 0;
-  padding-right: 0;
 }
-#portfolio .container-fluid .col-lg-4 {
-  padding-left: 0;
-  padding-right: 0;
-}
-#portfolio .portfolio-box {
-  display: block;
-  position: relative;
-  margin: 0 auto;
-  max-width: 650px;
-}
-#portfolio .portfolio-box .portfolio-box-caption {
-  display: block;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
+
+#imagecollection{
+	padding: 60px 0px;
   text-align: center;
-  color: #fff;
-  opacity: 0;
-  background: rgba(13, 13, 13, 0.6);
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
 }
-#portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  transform: translateY(-50%);
+#imagecollection h3{
+	font-family: 'Droid Serif' !important;
+    font-weight: 700;
+    font-style: italic;
+    text-align: left;
+    margin-top: 30px;
+	margin-bottom: 0px;
+    font-size: 18px;
+	color: #47484d;
 }
-#portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
-#portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  padding: 0 15px;
+#imagecollection h4 {
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    font-size: 16px;
+    color: #47484d;
 }
-#portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-  text-transform: uppercase;
-  font-size: 22px;
-  font-weight: 700;
+#imagecollection img {
+    width: 150px;
+	height: 150px;
 }
-#portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  font-size: 18px;
-}
-#portfolio .portfolio-box:hover .portfolio-box-caption {
-  opacity: 1;
+#imagecollection .row{
+	margin-bottom: 20px;
 }
 
     /* ==========================================================================
@@ -1007,6 +998,7 @@ Work Process Style
 #work-process h2 {
   text-transform: uppercase;
    color: #47484d;
+   font-family: 'Open Sans', sans-serif;
    font-weight: 700;
    font-size: 50px;
 }
@@ -1041,7 +1033,7 @@ Work Process Style
 }
 #work-process .btn-transparent {
   background: #ffd65c;
-      width: 200px;
+      width: 205px;
   border: 3px solid #47484d;
   padding: 10px 20px;
   font-size: 14px;
@@ -1198,7 +1190,7 @@ Our Team Style
 Testimonials Style
 ========================================================================== */
 #testimonials {
-  background-image: url("../img/testimonials/Testimonials.jpg");
+  background-image: url("../img/testimonials/img.jpg");
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
@@ -1206,7 +1198,7 @@ Testimonials Style
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding: 60px 0;
+  padding: 160px 0;
   text-align: center;
 }
 #testimonials h2 {
