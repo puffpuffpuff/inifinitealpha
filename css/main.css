@@ -306,7 +306,7 @@ when small
 	}
 	.main-text .col-sm-8 h2{
 		font-size: 13px;
-		
+		 padding-bottom: 30px;
 	line-height: 16px;
 	}
 	.main-text .btn-transparent{
