@@ -23,6 +23,7 @@
     <link href="plugins/Lightbox/dist/css/lightbox.css" rel="stylesheet">
     <link href="plugins/Icons/style.css" rel="stylesheet">
     <link href="plugins/animate.css/animate.css" rel="stylesheet">
+	<link href="plugins/slick.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 
 	
@@ -81,23 +82,24 @@
                 <div class="caption">
                      <div class="main-text">
 						<div class="col-lg-12 col-md-12">
-						<div class="row">
-						<div class="col-lg-2 col-md-2"></div>
-						<div class="col-lg-8 col-md-8">
-							<img class="img-responsive left-block" src="img/logoinf2.png"></div>
-						</div>
-						<div class="row">
-						<div class="col-lg-2 col-md-2 col-sm-2"></div>
-						<div class="col-lg-8 col-md-8 col-sm-8">
-							<h3>Bali, January 8th - 12, 2016 </h3>
-							<h2>A series of transformational workshops for thought leaders, peak performers, and business elites aimed to realize a new reality.</h2>
-							<div class="isep">
-								<div class="col-lg-4 col-md-4 col-sm-4"><img class="img-responsive center-block hidden-sm hidden-xs" src="img/bg/sep.png"></div>
-								<div class="col-sm-4 col-lg-4 col-md-4"><a class="btn btn-transparent center-block" href="#">JUMP START HERE</a></div>
-								<div class="col-lg-4 col-md-4 col-sm-4"><img class="img-responsive center-block hidden-sm hidden-xs" src="img/bg/sep.png"></div>
+							<div class="row">
+								<div class="col-lg-2 col-md-2"></div>
+								<div class="col-lg-8 col-md-8">
+									<img class="img-responsive left-block" src="img/logoinf2.png">
+								</div>
 							</div>
-						</div>
-						</div>
+							<div class="row">
+								<div class="col-lg-2 col-md-2 col-sm-2"></div>
+								<div class="col-lg-8 col-md-8 col-sm-8">
+									<h3>Bali, January 8th - 12, 2016 </h3>
+									<h2>A series of transformational workshops for thought leaders, peak performers, and business elites aimed to realize a new reality.</h2>
+									<div class="isep">
+										<div class="col-lg-4 col-md-4 col-sm-4"><img class="img-responsive center-block hidden-sm hidden-xs" src="img/bg/sep.png"></div>
+										<div class="col-sm-4 col-lg-4 col-md-4"><a class="btn btn-transparent center-block" href="#">JUMP START HERE</a></div>
+										<div class="col-lg-4 col-md-4 col-sm-4"><img class="img-responsive center-block hidden-sm hidden-xs" src="img/bg/sep.png"></div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
                 </div>
@@ -123,51 +125,51 @@
 					<div class="col-lg-2 col-md-2 col-sm-2"></div>
 					<div class="col-lg-8 col-md-8 col-sm-8">
 						<div class="redsep center-block"></div><br>
-						<div class="dtitle">
-							<div class="row">
-								<h3>
-									<div class="col-lg-2 col-md-2 col-sm-2">
-										<img class="img-responsive center-block" src="img/bg/icon1.png"></img>
-									</div>
-									<div class="col-lg-10 col-md-10 col-sm-10">
-										<span class="underline">WHAT IS CREATE MORE? </span>
-									</div>
-								</h3>
+							<div class="dtitle">
+								<div class="row">
+									<h3>
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<img class="img-responsive center-block" src="img/bg/icon1.png"></img>
+										</div>
+										<div class="col-lg-10 col-md-10 col-sm-10">
+											<span class="underline">WHAT IS CREATE MORE? </span>
+										</div>
+									</h3>
+								</div>
 							</div>
-						</div>
-							<p>
-							   This life changing program is led by <b>Oskar Saville-Doyle</b> and will assist you down the path of the happiness you have been searching for! In any area you are looking to gain more out of your life, whether it be growing your business to the next level, creating more financial freedom, greater intimacy in relationships or just identifying ways to live a more fulfilled life, there is no better time than now to transcend your greatest limitations and create your own breakthrough to the authentic you and to the greatest life possible. 
-							</p>
-						<div class="dtitle">
-							<div class="row">
-								<h3>
-									<div class="col-lg-2 col-md-2 col-sm-2">
-										<img class="img-responsive center-block" src="img/bg/icon2.png"></img>
-									</div>
-									<div class="col-lg-10 col-md-10 col-sm-10">
-										<span class="underline">WHO IS THIS WORKSHOP FOR?</span>
-									</div>
-								</h3>
+								<p>
+								   This life changing program is led by <b>Oskar Saville-Doyle</b> and will assist you down the path of the happiness you have been searching for! In any area you are looking to gain more out of your life, whether it be growing your business to the next level, creating more financial freedom, greater intimacy in relationships or just identifying ways to live a more fulfilled life, there is no better time than now to transcend your greatest limitations and create your own breakthrough to the authentic you and to the greatest life possible. 
+								</p>
+							<div class="dtitle">
+								<div class="row">
+									<h3>
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<img class="img-responsive center-block" src="img/bg/icon2.png"></img>
+										</div>
+										<div class="col-lg-10 col-md-10 col-sm-10">
+											<span class="underline">WHO IS THIS WORKSHOP FOR?</span>
+										</div>
+									</h3>
+								</div>
 							</div>
-						</div>
-							<p>
-							   This retreat is highly customized for leaders, peak performers, and business elites who want to experience the excitement and happiness of the next level of life. You are a highly successful individual who understands that there is more to life and that you deserve it all; these five days will bring you the understanding of how to get there.
-							</p>
-						<div class="dtitle">
-							<div class="row">
-								<h3>
-									<div class="col-lg-2 col-md-2 col-sm-2">
-										<img class="img-responsive center-block" src="img/bg/icon3.png"></img>
-									</div>
-									<div class="col-lg-10 col-md-10 col-sm-10">
-										<span class="underline">HOW TO ACHIEVE MORE?</span>
-									</div>
-								</h3>
+								<p>
+								   This retreat is highly customized for leaders, peak performers, and business elites who want to experience the excitement and happiness of the next level of life. You are a highly successful individual who understands that there is more to life and that you deserve it all; these five days will bring you the understanding of how to get there.
+								</p>
+							<div class="dtitle">
+								<div class="row">
+									<h3>
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<img class="img-responsive center-block" src="img/bg/icon3.png"></img>
+										</div>
+										<div class="col-lg-10 col-md-10 col-sm-10">
+											<span class="underline">HOW TO ACHIEVE MORE?</span>
+										</div>
+									</h3>
+								</div>
 							</div>
-						</div>
-							<p>
-							   Our one-of-a-kind approach combines an in-depth exploration of the psychological, mental and emotional blocks that get in your way when you are trying to create greater happiness. Through the systematic process of identifying and analyzing the narratives and belief systems in our conscious and subconscious minds, this workshop will show you how to jumpstart your 2016 into another dimension, where life is easier and more joyful, and where work becomes joyous, playful, and meaningful in every moment.
-							</p>
+								<p>
+								   Our one-of-a-kind approach combines an in-depth exploration of the psychological, mental and emotional blocks that get in your way when you are trying to create greater happiness. Through the systematic process of identifying and analyzing the narratives and belief systems in our conscious and subconscious minds, this workshop will show you how to jumpstart your 2016 into another dimension, where life is easier and more joyful, and where work becomes joyous, playful, and meaningful in every moment.
+								</p>
 							
 								<a class="btn btn-transparent center-block" href="#">SEE DATE AND RATES</a>
 							
@@ -334,8 +336,11 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-lg-4 col-md-4 col-sm-4"></div>
-						<div class="col-lg-4 col-md-4 col-sm-4">
+						<div class="col-lg-4 col-md-4 col-sm-4 hidden-xs hidden-sm">
+							<img class="img-responsive center-block" src="img/team/lbola.png">
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-2 .visible-xs"></div>
+						<div class="col-lg-4 col-md-10 col-sm-8">
 							<h3>What’s next in my life?</h3>
 							<hr class="grsep">
 							<h4>How can I feel even more fulfilled?</h4>
@@ -353,7 +358,9 @@
 							<h4>How can I connect more deeply with the people I love and the people I work with?</h4>
 							<hr class="grsep">
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-4"></div>
+						<div class="col-lg-4 col-md-4 col-sm-4 hidden-xs hidden-sm">
+							<img class="img-responsive center-block" src="img/team/rbola.png">
+						</div>
 					</div>
 			</div>	
 		</div>
@@ -445,7 +452,8 @@
 			</div>
 			
     </section>
-	
+	<section id="team">
+	</section>
 	<!-- Portfolio
 	============================================= -->						
     <section id="portfolio">
@@ -465,145 +473,170 @@
         <div class="container"></div>
 	</section>
 	<section id="imagecollection">
-		<div class="container-fluid">
+		<div class="container-fluid">REGISTER 
 			<div class="col-lg-12 col-md-12">
 				<div class="row">
-					<div class="col-lg-2 col-md-2 col-sm-2"></div>
-					<div class="col-lg-2 col-md-2 col-sm-2">
+					<div class="col-lg-2 col-md-2 col-sm-2 hidden-sm"></div>
+					<div class="col-lg-2 col-md-2 col-sm-3">
 						<img class="img-responsive center-block" src="img/img/bedroom.png">
 						<h3>Bedrooms</h3>
 						<h4>Six air-conditioned bedrooms with ensuite semi open-air garden bathrooms and tropical outdoor showers</h4>
 					</div>
-					<div class="col-lg-2 col-md-2 col-sm-2">
+					<div class="col-lg-2 col-md-2 col-sm-3">
 						<img class="img-responsive center-block" src="img/img/indoorliving.png">
 						<h3>Indoor Living</h3>
 						<h4>Open area sitting with a view of the whole facilities, that includes a media room with cinema-like experience</h4>
 					</div>
-					<div class="col-lg-2 col-md-2 col-sm-2">
+					<div class="col-lg-2 col-md-2 col-sm-3">
 						<img class="img-responsive center-block" src="img/img/spaces.png">
 						<h3>Spaces</h3>
 						<h4>The villa consists of a series of luxurious pavilions that includes a large two-storey dwelling housing, a communal living with entertainment areas, water features and an immense garden and lawn.</h4>
 					</div>
-					<div class="col-lg-2 col-md-2 col-sm-2">
+					<div class="col-lg-2 col-md-2 col-sm-3">
 						<img class="img-responsive center-block" src="img/img/pool.png">
 						<h3>Pool</h3>
 						<h4>A large pool deck is available, with sun-loungers to unwind. By night, a candlelight dinner and poolside BBQ is set up</h4>
 					</div>
-					<div class="col-lg-2 col-md-2 col-sm-2"></div>
+					<div class="col-lg-2 col-md-2 col-sm-2 hidden-sm"></div>
 				</div>
 				<div class="row">
-					<div class="col-lg-2 col-md-2 col-sm-2"></div>
-					<div class="col-lg-2 col-md-2 col-sm-2">
+					<div class="col-lg-2 col-md-2 col-sm-2 hidden-sm"></div>
+					<div class="col-lg-2 col-md-2 col-sm-3">
 						<img class="img-responsive center-block" src="img/img/sport.png">
 						<h3>Sports</h3>
 						<h4>Access to the Canggu Cluband all its world-class facilities. The accommodation is equipped with sport facilities including a 21-metre private curved swimming pool, an indoor gym, basketball hoop, squash court, flood-lit tennis court, table tennis, soccer court and a wide range of classes like yoga and pilates.</h4>
 					</div>
-					<div class="col-lg-2 col-md-2 col-sm-2">
+					<div class="col-lg-2 col-md-2 col-sm-3">
 						<img class="img-responsive center-block" src="img/img/staff.png">
 						<h3>Staff</h3>
 						<h4>Fulltime management by professional villa manager and a team of private butlers, professional chef, housemaids, gardeners and security staff.</h4>
 					</div>
-					<div class="col-lg-2 col-md-2 col-sm-2">
+					<div class="col-lg-2 col-md-2 col-sm-3">
 						<img class="img-responsive center-block" src="img/img/foodandbeverage.png">
 						<h3>Food and Beverage</h3>
 						<h4>Three-day meal with snacks in between of renowned world-class cuisine. Free flow of alcoholic and non-alcoholic beverage is also available.</h4>
 					</div>
-					<div class="col-lg-2 col-md-2 col-sm-2"></div>
-					<div class="col-lg-2 col-md-2 col-sm-2"></div>
+					<div class="col-lg-2 col-md-2 col-sm-2 hidden-sm"></div>
+					<div class="col-lg-2 col-md-2 col-sm-2 hidden-sm"></div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!-- team
-	============================================= -->
-    <section id="team">
-        <div class="container">
-            <br><h2>Facilitators</h2>
-            <hr class="sep">
-			<div class="row wow fadeInUp" data-wow-delay=".3s">
-                <div class="col-md-4">
-                    <div class="team">
-                        <img class="img-responsive center-block" src="img/team/t02.jpg" alt="1">
-						<div class="tsep"></div>
-                        <div class="team-social-icons">
-                            <a href="#"><i class="icon-facebook22"></i></a>
-                            <a href="#"><i class="icon-twitter22"></i></a>
-                            <a href="#"><i class="icon-google-plus2"></i></a>
-                        </div>
-                    </div>
-                </div>
-				<div class="col-md-8">
-				<h4><br><br><br>Oskar Saville-Doyle</h4>
-				<div class="csep"></div>
-					<p>
-						Oskar is a transformational life & business advisor and intuitive healer with decades of experience. Applauded by both business leaders and spiritual luminaries, she’s best known to facilitating change in her client’s lives and helping them achieve their dreams. Louise Hay, renowned author and Founder of Hay House publishing, has said of Oskar’s sessions: “She is always helpful, accurate, and a lot of fun.” Oskar has advised management teams and C-level execs all over the world to achieve happiness and business growth. She has lived and worked in Europe, Asia, and currently resides in New York City.
-					</p>
+	<!--=========== BEGAIN CLIENTS SECTION ================-->
+    <section id="clients">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+              <h2>FACILITATORS</h2>
+			  <hr class="blusep">
+          
+			<div class="col-lg-2 col-md-2 col-sm-1"></div>
+			<div class="col-lg-8 col-md-8 col-sm-10">
+				<div class="clients_content">
+				  <div class="row">
+					<!-- BEGAIN CLIENTS SLIDER -->
+					<div class="clients_slider">
+					  <!-- BEGAIN SINGLE CLIENT SLIDE#1 -->
+					  <div class="row">
+						<div class="single_client">
+							<div class="col-lg-6"><img class="img-responsive center-block" src="img/team/t03.png"></div>
+							<div class="col-lg-6">
+								<h3>Oskar Saville-Doyle</h3>
+								<h4>Lead Facilitator</h4>
+								<p>Oskar is a transformational life & business advisor and intuitive healer with decades of experience. Applauded by both business leaders and spiritual luminaries, she’s best known for facilitating change in her client’s lives and helping them achieve their dreams. Louise Hay, renowned author and Founder of Hay House publishing, has said of Oskar’s sessions: “She is always helpful, accurate, and a lot of fun.” Oskar has advised management teams and C-level execs all over the world to achieve happiness and business growth. She has lived and worked in Europe and Asia, and currently resides in New York City.</p>
+							</div>
+						</div>
+					  </div>
+					  <!-- BEGAIN SINGLE CLIENT SLIDE#2 -->
+					  <div class="row">
+						<div class="single_client">
+							<div class="col-lg-6"><img class="img-responsive center-block" src="img/team/t02.png"></div>
+							<div class="col-lg-6">
+								<h3>Cindi Gozberk</h3>
+								<h4>Facilitator</h4>
+								<p>Cindi is a management consultant with over a decade of experience with Fortune 500 organizations and private equity portfolio companies alike. She spent the first four years of her career specializing in organization and change management at Accenture, where she supported numerous large-scale change programs at Fortune 500 companies in the US and Australia. Later, Cindi joined Bain & Company, where she focused on business strategy, advising executives on strategic initiatives and M&A activity. More recently, she has led due diligence activities and provided portfolio operations advisory services for a number of mid to large cap private equity firms. She has extensive industry experience in retail, consumer goods, technology, travel/transportation, hotel/hospitality, and oil and gas. Cindi holds a BS in International Business from the University of Southern California and an MBA from Kellogg School of Management at Northwestern University. Long intrigued by the scientifically-proven benefits of meditation, she has met with medical doctors, neuroscientists, swamis and monks, among other practitioners, to better understand both the benefits of mindfulness and how to deepen her own meditative practice. Cindi has lived in the US, Europe, Australia and Africa; she now resides in New York City.</p>
+							</div>
+						</div>
+					  </div>
+					  <!-- BEGAIN SINGLE CLIENT SLIDE#3 -->
+					  <div class="row">
+						<div class="single_client">
+							<div class="col-lg-6"><img class="img-responsive center-block" src="img/team/t01.png"></div>
+							<div class="col-lg-6">
+								<h3>Farina Situmorang</h3>
+								<h4>Facilitator/Local Organizer</h4>
+								<p>Farina is CEO and Co-Founder of Catalyst, a technology and services company, based in Jakarta, Indonesia. Most recently she has been instrumental in the current Indonesian President Joko Widodo’s campaign efforts by heading the digital strategy of the campaign team during the 2014 Presidential election; this effort included a launch of the fastest growing political party page in Facebook’s history, reaching over 30 million voters and attaining 2.5 million likes in 3 weeks. Before her venture in Indonesia, Ms. Situmorang honed her marketing and business development skills working for BlackBerry’s global headquarters in Canada, several startups in Silicon Valley, Microsoft, and IBM. As a student and facilitator of meditation, Farina incorporates mindfulness, heartfulness, and other meditative practices within Catalyst’s company culture. Farina received her Bachelor of Science from University of Indonesia and her M.B.A. from Kellogg School of Management at Northwestern University.</p>
+							</div>
+						</div>
+					  </div>
+					 				  
+					</div>
+				  </div>
 				</div>
-            </div>
-			<div class="row wow fadeInUp" data-wow-delay=".3s">
-				<div class="col-md-8">
-				<h4>Cindi Gozberk</h4>
-				<div class="csep"></div>
-					<p>
-						Cindi is a management consultant with over a decade of experience working with dozens of Fortune 500 organizations and private equity portfolio companies. She spent the first four years of her career specializing in organization and change management at Accenture, where she supported numerous large-scale change programs at Fortune 500 companies in the US and Australia.  Later, Cindi joined Bain & Company, where she focused on business strategy, advising executives on strategic initiatives and M&A activity.  More recently, she has led due diligence activities and provided portfolio operations advisory services for a number of mid to large cap private equity firms.  She has extensive industry experience in retail, consumer goods, technology, travel/transportation, hotel/hospitality, and oil and gas.  Cindi holds a BS in International Business from the University of Southern California and an MBA from Kellogg School of Management at Northwestern University. Long intrigued by the scientifically-proven benefits of meditation, she has met with medical doctors, neuroscientists, swamis and monks, among other practitioners, to better understand both the benefits of mindfulness and how to deepen her own meditative practice.  Cindi has lived in the US, Europe, Australia and Africa; she now resides in New York City.
-					</p>
-				</div>
-				<div class="col-md-4">
-                    <div class="team">
-                        <img class="img-responsive center-block" src="img/team/t01.jpg" alt="1">
-						<div class="tsep"></div>
-                        <div class="team-social-icons">
-                            <a href="#"><i class="icon-facebook22"></i></a>
-                            <a href="#"><i class="icon-twitter22"></i></a>
-                            <a href="#"><i class="icon-google-plus2"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-			<div class="row wow fadeInUp" data-wow-delay=".3s">
-                <div class="col-md-4">
-                    <div class="team">
-                        <img class="img-responsive center-block" src="img/team/t03.jpg" alt="1">
-						<div class="tsep"></div>
-                        <div class="team-social-icons">
-                            <a href="#"><i class="icon-facebook22"></i></a>
-                            <a href="#"><i class="icon-twitter22"></i></a>
-                            <a href="#"><i class="icon-google-plus2"></i></a>
-                        </div>
-                    </div>
-                </div>
-				<div class="col-md-8">
-				<h4><br><br>Farina Situmorang</h4>
-				<div class="csep"></div>
-				<p>
-						Farina is CEO and Co-Founder of Catalyst, a technology and services company, based in Jakarta, Indonesia. Most recently she has been instrumental in the current Indonesian President Joko Widodo’s campaign efforts by heading the digital strategy of the campaign team during the 2014 Presidential election, including launching the fastest growing political party page in Facebook’s history reaching over 30 million voters and attaining 2.5 million likes in 3 weeks. Before her venture in Indonesia, Ms. Situmorang honed her marketing and business development skills working for BlackBerry's global headquarters in Canada, several startups in Silicon Valley, Microsoft, and IBM. As a student and facilitator of meditation, Farina incorporates mindfulness, heartfulness, and other meditative practices within Catalyst's company culture. Farina received her Bachelor of Science from University of Indonesia and her M.B.A. from Kellogg School of Management in Northwestern University.
-
-						</p>
-				</div>
-            </div>
+			</div>
+			<div class="col-lg-2 col-md-2 col-sm-1"></div>
+          </div>
         </div>
+      </div>
     </section>
+    <!--=========== END CLIENTS SECTION ================-->
+	
     <!-- Contact Us
 	============================================= -->
     <section id="contact">
         <div class="container">
-            <h2>Contact Us</h2>
-            <hr class="sep">
-            <p>Get In Touch</p>
-            <div class="col-md-6 col-md-offset-3 wow fadeInUp" data-wow-delay=".3s">
-                <form>
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="Name" placeholder="Name">
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="Email" placeholder="Email">
-                    </div>
-                    <div class="form-group">
-                        <textarea class="form-control" rows="3" placeholder="Message"></textarea>
-                    </div>
-                    <a href="#" class="btn-block">Send</a>
-                </form>
-            </div>
+				<div class="col-lg-2"></div>
+				<div class="col-md-8">
+					<h2>Register now</h2>
+					<hr class="graysep">
+					<p>Fill in you contact details to register for the workshop. The Create More team will respond to your inquiry within 24 hours.</p>
+						<div class="row">
+								<form>
+									<div class="row">
+										<div class="col-lg-4">
+											<div class="panel-body">Name</div>
+										</div>
+										<div class="col-lg-8">
+											<div class="form-group">
+												<input type="text" class="form-control" id="Name">
+											</div>
+										</div>	
+									</div>
+									<div class="row">
+										<div class="col-lg-4">
+											<div class="panel-body">Email</div>
+										</div>
+										<div class="col-lg-8">
+											<div class="form-group">
+												<input type="text" class="form-control" id="email">
+											</div>
+										</div>	
+									</div>
+									<div class="row">
+										<div class="col-lg-4">
+											<div class="panel-body">Phone number</div>
+										</div>
+										<div class="col-lg-8">
+											<div class="form-group">
+												<input type="text" class="form-control" id="phone_number">
+											</div>
+										</div>	
+									</div>
+									<hr class="grsep">
+									<span class="txt">Select your preferred booking:</span>
+									<div class="row">
+										<div class="col-lg-6">
+											<div class="panel-body" style="background: #DB5C3E;">SINGLE OCCUPANCY</div>
+										</div>
+										<div class="col-lg-6">
+											<div class="panel-body">PERSON SHARED</div>
+										</div>
+									</div>
+									<hr class="grsep"><br>
+									<a href="#" class="btn-block">Send</a>
+								</form>
+						</div>
+				</div>
         </div>
     </section>
     <!-- Footer
@@ -641,6 +674,7 @@
     <!-- JS PLUGINS -->
     <script src="plugins/owl-carousel/owl.carousel.js"></script>
     <script src="js/jquery.easing.min.js"></script>
+	<script src="plugins/slick.min.js"></script>
     <script src="plugins/countTo/jquery.countTo.js"></script>
     <script src="plugins/inview/jquery.inview.min.js"></script>
     <script src="plugins/Lightbox/dist/js/lightbox.min.js"></script>
