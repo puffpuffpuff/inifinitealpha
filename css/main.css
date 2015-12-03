@@ -131,13 +131,13 @@ Buttons Styles
 }
 
 .btn-block {
-  background: #24242a;
+  background: #87C2EA;
   padding: 15px 0;
   font-size: 16px;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0;
-  color: #fff;
+  color: #47484d;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -145,14 +145,14 @@ Buttons Styles
   font-weight: 700;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  border: 3px solid #24242a;
+  border: 3px solid #87C2EA;
 }
 
 .btn-block:hover,
 .btn-block:focus,
 .btn-block:active {
-  background: #fff;
-  color: #0d0d0d;
+  background: #47484d;
+  color: #87C2EA;
   text-decoration: none;
 }
 
@@ -306,7 +306,7 @@ when small
 	}
 	.main-text .col-sm-8 h2{
 		font-size: 13px;
-		 padding-bottom: 30px;
+		    padding-bottom: 30px;
 	line-height: 16px;
 	}
 	.main-text .btn-transparent{
@@ -418,7 +418,11 @@ Sliders Style
 #owl-hero:hover .owl-next {
   right: -5px;
 }
-
+@media (max-width: 32em) {
+	#owl-hero {
+    height: 600px;
+}
+}
 
 
     /* ==========================================================================
@@ -611,6 +615,9 @@ Welcome Style
    font-size: 50px;
 	color : #47484d;
 }
+#expl img{
+	min-height: 588px;
+}
  .blusep {
   max-width: 80%;
   border: 1px solid #87C2EA;
@@ -618,7 +625,7 @@ Welcome Style
   margin-bottom: 5px;
   text-align:center;
 }
-#expl .grsep {
+ .grsep {
   max-width: 100%;
   border: 1px solid #47484d;
   margin-top: 1px;
@@ -909,6 +916,7 @@ Services Style
 	padding-bottom: 12px;
 	padding-left: 10px;
 	padding-right: 10px;
+	min-height: 683px;
 }
 
 
@@ -1239,35 +1247,237 @@ Testimonials Style
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+/*--------------------*/
+/* CLIENTS SECTION */
+/*--------------------*/
 
+#clients {
+	
+  padding: 60px 0;
+  
+}
+#clients h2 {
+	font-family: 'Open Sans', sans-serif;
+  color: #47484d;
+  text-transform: uppercase;
+   font-weight: 700;
+   text-align: center;
+   letter-spacing: 0.17em;
+   font-size: 50px;
+}
+#clients h3 {
+	font-family: 'Droid Serif' !important;
+	font-weight: 700;
+	font-style: italic;
+	text-align: left;
+	color: #47484d;
+	font-size: 26px;
+}
+#clients h4 {
+	font-weight: 700;
+	text-align: left;
+	color: #47484d;
+	font-size: 22px;
+}
+#clients p {
+	text-align: left;
+	color: #47484d;
+	font-size: 15px;
+}
+#clients .blusep{
+	max-width: 30%;
+  border: 2px solid #87C2EA;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.clients_content{
+	float: left;
+	display: inline;
+	width: 100%;
+	margin-top: 30px;	
+}
+.clients_slider{
+	float: left;
+	display: inline;
+	width: 100%;
+}
+.single_client {
+  
+  display: inline;
+  float: left;
+  text-align: center;
+  width: 100%;
+  padding: 25px 0px;
+}
+.single_client>img{
+	margin: 0 auto;
+}
+.clients_slider .slick-prev {
+  border-radius: 5px 0 0 5px;
+  color: #fff;
+  height: 40px;
+  left: 89%;
+  top: 6%;
+}
+.clients_slider .slick-next {
+  border-radius: 0 5px 5px 0;
+  color: #fff;
+  right: 1.5%;
+  top: 6%;
+  height: 40px;
+}
+@media(max-width:991px ){
+	#welcome .btn-blue {
+		width: 160px;
+	}
+	#welcome .btn-yel {
+		width: 160px;
+	}
+	.clients_slider .slick-prev {left: 45%;}
+	.clients_slider .slick-next {right: 45%;}
+}
+@media(max-width:767px ){
+	#welcome .btn-blue {
+		width: 160px;
+	}
+	#welcome .btn-yel {
+		width: 160px;
+	}
+}
+@media(max-width:480px ){
+	#welcome .btn-blue {
+		width: 160px;
+	}
+	#welcome .btn-yel {
+		width: 160px;
+	}
+	#clients h2{
+		letter-spacing: 0.01em;
+    font-size: 30px;
+	}
+	#contact .col-lg-4 .panel-body {
+		font-size: 15px;
+	}
+	#contact .form-control {
+		min-height: 46px;
+	}
+	.clients_slider .slick-prev {left: 43%;}
+	.clients_slider .slick-next {right: 43%;}
+}
+@media(max-width:360px ){
+	#clients h2{
+		letter-spacing: 0.01em;
+    font-size: 30px;
+	}
+	#welcome .btn-blue {
+		width: 160px;
+	}
+	#contact .col-lg-4 .panel-body {
+		font-size: 15px;
+	}
+	#contact .form-control {
+		min-height: 46px;
+	}
+	#welcome .btn-yel {
+		width: 160px;
+	}
+	.clients_slider .slick-prev {left: -2%;top: 15%;}
+	.clients_slider .slick-next {right: -2%;top: 15%;}
+}
     /* ==========================================================================
 Contact Us Style
 ========================================================================== */
 #contact {
   padding: 60px 0;
   text-align: center;
+  background: #F99F2C;
+  
 }
 #contact h2 {
   text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+   font-weight: 700;
+   letter-spacing: 0.17em;
+   color: #47484d;
+   font-size: 50px;
+}
+#contact .graysep{
+    max-width: 60%;
+    border: 2px solid #47484d;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+#contact .col-lg-4 .panel-body{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+    background: #47484d;
+	text-align: left;   
+	font-size: 20px;
+}
+#contact .col-lg-6 .panel-body{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+    background: #F0E8F3;
+	text-align: center;   
+	font-size: 20px;
+	margin-top: 20px;	
+	margin-bottom: 10px;
+}
+#contact .col-lg-4,
+#contact .col-lg-8{
+	padding-left: 0px;
+	padding-right:0px;
+}
+#contact .grsep{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#contact p{
+	font-family: 'Droid Serif' !important;
+	font-weight: 700;
+	font-style: italic;
+	text-align: center;
+	color: #47484d;
+	font-size: 26px;
+}
+#contact .txt{
+	text-align: center;
+	color: #47484d;
+	font-size: 22px;
 }
 #contact form {
   margin: 40px 0;
 }
 #contact .form-group {
-  margin-bottom: 35px;
+  margin-bottom: 15px;
 }
 #contact .form-control {
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0;
-  border: 2px solid #24242a;
   color: #0d0d0d;
-  min-height: 45px;
+  min-height: 58px;
 }
-#contact textarea {
-  height: 140px;
-  resize: none;
-}
+
+@media (max-width: 32em) {
+    #contact h2{
+		 letter-spacing: 0.07em;
+	     font-size: 30px;
+	}
+	#contact p{
+		 letter-spacing: 0.07em;
+	     font-size: 20px;
+	}
+	#contact .row{
+		padding-left: 5px;
+    padding-right: 5px;
+	}
+  }
     /* ==========================================================================
 portofolio Us Style
 ========================================================================== */
@@ -1323,6 +1533,7 @@ footer {
   background-image: url("../img/bg/footer_lodyas.png");
   background-repeat: repeat;
   text-align: center;
+
 }
 footer h1 {
   text-transform: uppercase;
