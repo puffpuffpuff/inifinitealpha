@@ -337,7 +337,7 @@
 					</div>
 					<div class="row">
 						<div class="col-lg-4 col-md-4 col-sm-4 hidden-xs hidden-sm">
-							<img class="img-responsive center-block" src="img/team/lbola.png">
+							<img class="img-responsive center-block" src="/img/team/lbola.png">
 						</div>
 						<div class="col-lg-2 col-md-2 col-sm-2 .visible-xs"></div>
 						<div class="col-lg-4 col-md-10 col-sm-8">
@@ -359,7 +359,7 @@
 							<hr class="grsep">
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-4 hidden-xs hidden-sm">
-							<img class="img-responsive center-block" src="img/team/rbola.png">
+							<img class="img-responsive center-block" src="/img/team/rbola.png">
 						</div>
 					</div>
 			</div>	
@@ -539,7 +539,7 @@
 					  <!-- BEGAIN SINGLE CLIENT SLIDE#1 -->
 					  <div class="row">
 						<div class="single_client">
-							<div class="col-lg-6"><img class="img-responsive center-block" src="img/team/t03.png"></div>
+							<div class="col-lg-6"><img class="img-responsive center-block" src="/img/team/t03.png"></div>
 							<div class="col-lg-6">
 								<h3>Oskar Saville-Doyle</h3>
 								<h4>Lead Facilitator</h4>
@@ -550,7 +550,7 @@
 					  <!-- BEGAIN SINGLE CLIENT SLIDE#2 -->
 					  <div class="row">
 						<div class="single_client">
-							<div class="col-lg-6"><img class="img-responsive center-block" src="img/team/t02.png"></div>
+							<div class="col-lg-6"><img class="img-responsive center-block" src="/img/team/t02.png"></div>
 							<div class="col-lg-6">
 								<h3>Cindi Gozberk</h3>
 								<h4>Facilitator</h4>
@@ -561,7 +561,7 @@
 					  <!-- BEGAIN SINGLE CLIENT SLIDE#3 -->
 					  <div class="row">
 						<div class="single_client">
-							<div class="col-lg-6"><img class="img-responsive center-block" src="img/team/t01.png"></div>
+							<div class="col-lg-6"><img class="img-responsive center-block" src="/img/team/t01.png"></div>
 							<div class="col-lg-6">
 								<h3>Farina Situmorang</h3>
 								<h4>Facilitator/Local Organizer</h4>
